@@ -54,11 +54,10 @@ define config.history_length = 250
 
 default preferences.text_cps = 40
 
-default persistent.hdisabled = False
+default persistent.hdisabled = True
 default persistent.parallax = False
 default persistent.discord = False
 default persistent.blinking_arrow = False
-default persistent.adult_warning_shown = False
 default persistent.colorblind = None
 
 if renpy.emscripten:
