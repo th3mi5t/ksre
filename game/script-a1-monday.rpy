@@ -1731,8 +1731,6 @@ label a1_monday:
         if _in_replay:
             return
 
-    return
-
 label a1c1o1:
     hi "Why? Do I have to?"
 
