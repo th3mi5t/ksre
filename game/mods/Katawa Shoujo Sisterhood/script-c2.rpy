@@ -223,3 +223,5 @@ emi "Let's hope you still have that drive tomorrow morning. The second days are 
 play music music_timeskip fadein 2.0
 
 window hide
+
+call en_chapter3
