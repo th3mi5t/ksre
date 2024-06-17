@@ -6,7 +6,6 @@ window hide None
 
 
 scene bg school_gate_ss onlayer master
-with shorttimeskip
 with Dissolve(2.0)
 
 play music music_pearly fadein 2.0
@@ -176,10 +175,10 @@ with charaexit
 
 "As Hanako dashes off to the girl's dorm, I turn to Lilly."
 
+hi "What was with Akira's remark about the upcoming weekend?"
+
 show lilly back_smileclosed_cas at center
 with charaenter
-
-hi "What was with Akira's remark about the upcoming weekend?"
 
 "Lilly smiles mysteriously."
 
@@ -263,8 +262,6 @@ n "I sit back and nibble on a piece of candy myself as Hanako gives Lilly a brie
  really was. In fact, it was probably as tried-and-true a date as we could have managed. This was a bit intentional on my part as I wanted our first date to be as comfortable as possible."
 
 hide hanako
-with charaexit
-
 hide lilly 
 with charaexit
 
@@ -282,8 +279,9 @@ adaption of a book we both read before, so neither of us was very surprised by m
 plot, but we had the benefit of having additional discussion material on our way home, and being able
 to avoid awkward silences with Hanako is always a good thing. I was even entertained at how
 passionate she got for a moment while we were debating the way the director changed a few things
-about the ending before slipping back into her usual meek demeanor. One thing about our date that
-stood out was Hanako's uneasiness with the idea of me paying for everything, so we ended up paying
+about the ending before slipping back into her usual meek demeanor."
+
+n "One thing about our date that stood out was Hanako's uneasiness with the idea of me paying for everything, so we ended up paying
 for each other's meal and movie ticket."
 
 nvl clear
@@ -349,8 +347,7 @@ with charachangealways
 
 ha "I'll go and clean the tea service downstairs. And I think I'll go to bed afterwards."
 
-"As I get up myself to leave as well, Hanako gives me a quick kiss on the lips before removing her hair
-clip and walking out of Lilly's room. Before I can follow her, Lilly softly calls my name."
+"As I get up myself to leave as well, Hanako gives me a quick kiss on the lips before removing her hair clip and walking out of Lilly's room. Before I can follow her, Lilly softly calls my name."
 
 hide hanako
 with charaexit
@@ -365,7 +362,7 @@ li "Hisao, would you mind helping me unpack a few things? I'd like to get some s
 "Which is fine, because there's something I've been meaning to ask her as well. As I start messing with the lock of the suitcase, Lilly sits down on her bed with a tired but cheerful expression on her face."
 
 show lilly basic_smileclosed_cas at center
-with charachange
+with charachangealways
 
 li "So…you and Hanako…"
 
@@ -379,7 +376,9 @@ hi "Things could have worked out very differently. By the way, thanks for the ad
 
 "I was obsessing with her emotional condition and thought of nothing except on how to prevent her from getting hurt more than she had already been."
 
-"I didn't realize how patronizing my disposition must have been until Lilly called me out on it that evening. Not only was Lilly's judgment of my behavior spot on, but Hanako was aware of it too and instead of protecting her, my attitude was actively hurting her."
+"I didn't realize how patronizing my disposition must have been until Lilly called me out on it that evening."
+
+"Not only was Lilly's judgment of my behavior spot on, but Hanako was aware of it too and instead of protecting her, my attitude was actively hurting her."
 
 "If anything, I want to forget about this stage of our relationship as soon as possible."
 
@@ -415,7 +414,6 @@ li "Yes. After some digging on my part I got her to admit to me that she was in 
 
 hi "So it was like she was asking you if it was safe for her to pursue me without becoming a rival to you?"
 
-
 li "I do not think she had any plans to pursue you. But in the case I liked you as well, she would have tried to push her own feelings away for my benefit…"
 
 show lilly basic_sad_cas at center
@@ -436,7 +434,9 @@ with charachange
 
 li "Hisao…if I may ask. How did you two get together? How did things… fall into place between you two? I asked Hanako, but she wouldn't tell me much about it."
 
-"That's a tricky question. Things falling into place was probably the worst description of how our relationship came to be. It was a whole lot more accurate to say things were blown to very tiny bits that we ended up using to piece together something more stable." 
+"That's a tricky question. Things falling into place was probably the worst description of how our relationship came to be."
+
+"It was a whole lot more accurate to say things were blown to very tiny bits that we ended up using to piece together something more stable." 
 
 "We ended up playing emotional hide and seek, we ended up hurting each other and pushing each other away and to top it off, we had sexual intercourse for misguided reasons that neither of us was emotionally ready for."
 
@@ -474,6 +474,11 @@ hi "Me too. Goodnight Lilly."
 
 li "Goodnight Hisao."
 
-play music music_timeskip fadein 2.0
+window hide
+
+scene black onlayer master
+with dissolve
+
+call timeskip
 
 call en_chapter5

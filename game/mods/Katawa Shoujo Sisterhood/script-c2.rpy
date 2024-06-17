@@ -220,8 +220,11 @@ emi "Let's hope you still have that drive tomorrow morning. The second days are 
 
 "After delivering that ominous premonition, she closes the door behind her."
 
-play music music_timeskip fadein 2.0
-
 window hide
+
+scene black onlayer master
+with dissolve
+
+call timeskip
 
 call en_chapter3

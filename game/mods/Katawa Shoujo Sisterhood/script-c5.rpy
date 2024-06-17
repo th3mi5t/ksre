@@ -4,9 +4,6 @@ window hide None
 #1, 0 ,15, 11, 21
 #lullaby, n/a, generic, stride, passing
 
-#play music music_pearly fadein 2.0
-#play music music_timeskip fadein 2.0
-
 scene bg misc_sky_ni onlayer master
 with shorttimeskip
 
@@ -44,11 +41,11 @@ n "I suppose that would make us number ten. After getting up early - too early -
 
 n "I failed to get a great deal of sleep the night before, so I spent a large part of the evening napping while Lilly and Hanako cleaned up the house and made supper. I felt a bit guilty about it, but neither seemed to mind it very much."
 
-n "The day afterwards, we walked to the nearby town which was more exhausting than I thought due to the heat. We had ice-cream to cool down once we reached our destination, and Hanako spent most of the time afterwards browsing clothes for Lilly, herself and me. 
+n "The day afterwards, we walked to the nearby town which was more exhausting than I thought due to the heat. We had ice-cream to cool down once we reached our destination, and Hanako spent most of the time afterwards browsing clothes for Lilly, herself and me."
 
- After a filling lunch in town and more shopping, we walked back to the summer home, had a delicious dinner and then went out for an evening walk while Lilly remained behind in order to finish the book she started on the train a day ago.
+n "After a filling lunch in town and more shopping, we walked back to the summer home, had a delicious dinner and then went out for an evening walk while Lilly remained behind in order to finish the book she started on the train a day ago."
 
- After lazily strolling through the surrounding area, we decided to take a break, and now we're lying side by side in the wheat field behind the summer home just staring at the sky."
+n "After lazily strolling through the surrounding area, we decided to take a break, and now we're lying side by side in the wheat field behind the summer home just staring at the sky."
 
 nvl clear
 
@@ -60,7 +57,9 @@ hi "What is it?"
 
 ha "What do you think of our trip so far?"
 
-"I take a moment to think. We haven't really been doing anything spectacular ever since we got here… Lilly's blindness, my heart condition and Hanako's difficulty with crowds rule out a lot of activities, but somehow it hasn't detracted from the experience." 
+"I take a moment to think."
+
+"We haven't really been doing anything spectacular ever since we got here… Lilly's blindness, my heart condition and Hanako's difficulty with crowds rule out a lot of activities, but somehow it hasn't detracted from the experience." 
 
 "Something about our little outing feels… just right."
 
@@ -102,7 +101,7 @@ ha "Y-yes. A small disabled family, but a family all the same."
 
 hi "I think I know what you mean."
 
-show hanako_basic_normal_cas_close 
+show hanako basic_normal_cas_close 
 with charachangealways
 
 ha "You feel the same?"
@@ -111,18 +110,19 @@ hi "I think I do. I keep trying to imagine what this kind of trip would have bee
 
 ha "Maybe we both needed to be away from Yamaku for a while. To… you know… maybe… remember what it's like to be n-normal."
 
-n "That's a pretty good point Hanako is bringing up. When passing by students from other classes, I still tend to revert to thinking of them as \"that girl with the crutch\" or \"that guy who's missing several fingers\" from time to time, and 
-every time I catch myself, I'm reminded of my own condition. On the other hand, I'm now so familiar with both Lilly and Hanako that I find it harder and harder to see their condition as something out of the ordinary. It simply has become part of who they are in my mind."
+"That's a pretty good point Hanako is bringing up. When passing by students from other classes, I still tend to revert to thinking of them as \"that girl with the crutch\" or \"that guy who's missing several fingers\" from time to time, and  every time I catch myself, I'm reminded of my own condition."
 
-n "Life here has been very relaxed. Lilly's familiarity with the building has allowed her to get around without needing her cane. Having no other people in a one-mile radius has allowed Hanako to relax to the point where she's been wearing her hairclip almost constantly,
-and although she's still not as chatty as Emi or Misha usually is, she's calm enough to hold conversations with us without her usual stammering."
+"On the other hand, I'm now so familiar with both Lilly and Hanako that I find it harder and harder to see their condition as something out of the ordinary. It simply has become part of who they are in my mind."
 
-n "The only time I was reminded of my own condition was when I was forced to admit to Hanako yesterday evening that I hadn't thought about taking my medication for the day yet after she asked me about it. 
-While taking my pills has become an automatism for me at Yamaku, I was confronted by the fact I become prone to forgetting about them when suddenly taken out of my usual daily routine. 
-While I'm thankful that Hanako takes her promise of mutual support so seriously, I'm not thrilled by the prospect of her watching me like a hawk for the remainder of the trip. 
-Still, her scolding was only a minor inconvenience."
+"Life here has been very relaxed. Lilly's familiarity with the building has allowed her to get around without needing her cane." 
 
-nvl clear
+"Having no other people in a one-mile radius has allowed Hanako to relax to the point where she's been wearing her hairclip almost constantly, and although she's still not as chatty as Emi or Misha usually is, she's calm enough to hold conversations with us without her usual stammering."
+
+"The only time I was reminded of my own condition was when I was forced to admit to Hanako yesterday evening that I hadn't thought about taking my medication for the day yet after she asked me about it."
+
+"While taking my pills has become an automatism for me at Yamaku, I was confronted by the fact I become prone to forgetting about them when suddenly taken out of my usual daily routine."
+
+"While I'm thankful that Hanako takes her promise of mutual support so seriously, I'm not thrilled by the prospect of her watching me like a hawk for the remainder of the trip. Still, her scolding was only a minor inconvenience."
 
 hi "You're right. It's been months since I've felt this…normal."
 
@@ -212,6 +212,8 @@ the rest. We slept together once, but Hanako merely initiated that because she t
 way to prevent me from drifting away from her, and she was so uncomfortable during the whole
 experience that it is clear to me in hindsight that she certainly wasn't ready for the act itself."
 
+nvl clear
+
 n "Is having that kind of intimacy something Hanako will ever be doing for her own enjoyment to begin
 with? We have never mentioned that night we spent together again after we started dating, and I don't
 really know how Hanako sees sex. She isn't exactly a flirty person or someone who I'd expect to come
@@ -252,6 +254,230 @@ ha "You're m-mean, suddenly tickling my nose like that."
 
 hi "It wasn't exactly sudden. You just didn't react before."
 
+stop music fadeout 2.0
+
+show hanako cover_worry_cas_close
+with charachange
+
+"Hanako thinks for a moment, then suddenly slumps her shoulders."
+
+ha "Oh…"
+
+"Why does she suddenly sound depressed? Did I do something wrong?"
+
+hi "H-hey, what's the matter?"
+
+ha "You t-touched the right side of my face, d-didn't you?"
+
+hi "Y-yes."
+
+ha "I…I…don't r-really feel anything there. Not anymore…"
+
+"I feel the urge to punch myself. I really should have spotted that landmine from a mile away, and yet I happily pranced right onto it."
+
+hi "I-I'm sorry, Hanako."
+
+ha "It's t-the s-same for my right shoulder and arm and…*sigh*..well, y-you've seen it for yourself."
+
+"I have. But I hadn't really thought much about the fact that a not insignificant part of her body was devoid of the sense of touch."
+
+hi "You can't feel anything in any of those areas?"
+
+ha "A-around some areas, I can f-feel it when you press hard enough. B-but nothing s-softer. N-not any pleasant sensations anymore."
+
+"I wrap my arms around her. I start realizing why Hanako often hugged me so tightly when we exchanged kisses."
+
+"Since the sensation on her back and shoulders was partially numbed, she had the tendency to press herself against me to maximize the sensations she was feeling from the front."
+
+ha "I-It's p-probably for the better though. It c-could have been w-worse. I-It's better to feel n-nothing at all than to be in c-constant pain, i-isn't it?"
+
+"That's true, but that can't feel like much of a consolation right now. I don't think it's going to do much good offering her sympathy. What she needs me to do right now is cheer her up."
+
+"I think for a moment."
+
+"I have an idea that might work, even if it's a bit of a gamble."
+
+"It might also end up backfiring on me, but I decide to take the risk." 
+
+"I sit a little bit closer to her."
+
+hi "You know, maybe it's not as bad as you think it is."
+
 play music music_comedy fadein 2.0
 
+show hanako emb_downtimid_cas_close
+with charachangealways
 
+"Hanako looks at me with a puzzled expression, clearly having expected a different response."
+
+"Keeping my left arm around her, I gently move my right hand downward to a point just above her hip and start tickling her side." 
+
+show hanako emb_downsmile_cas_close #some hanako laughing sprites would be nice
+with charachange 
+
+"Hanako's puzzled expression gets uncomfortable and she suddenly lets out a forced giggle. I smile inwardly. This was the reaction I was hoping for."
+
+ha "H-hey, t-that tickles."
+
+"I give her a mischievous grin and keep going. Hanako's body begins to squirm, and she starts trying to push herself away from me."
+
+ha "D-don't do that."
+
+"I let her try to get away for a moment, then unexpectedly let go of her, causing Hanako to fall backwards. Before she can sit upright again, I move over to her and quickly straddle her."
+
+ha "H-Hisao!?"
+
+hi "Hanako, I bet you still have plenty of sensitive spots left."
+
+"I quickly reach down and start tickling her left side again, drawing out another giggle."
+
+show hanako emb_smile_cas_close
+with charachange
+
+ha "D-don't."
+
+hi "And I won't stop until you admit that."
+"She moves her arm down to shield herself, so I quickly move my hand and start tickling her neck instead. One more involuntary giggle is the result."
+
+ha "S-stop."
+
+hi "I don't even have to look very hard, Hanako."
+
+"When she moves her arms up to ward off my hand, I swiftly go for her armpit instead."
+
+ha "Hi-hee hee-sao, c-cut it out hee hee hee."
+
+hi "Admit it and I'll stop."
+
+"She tries to buck her hips in an attempt to knock me off, but I barely even feel it."
+
+"As she lowers her arm, I grab it and start tickling the lower part of her arm…"
+
+ha "hee hee hee."
+
+"A gasp."
+
+"…then her collarbone when she yanks her arm away…"
+
+ha "P-please *snort* st-stop."
+
+"She's now giggling uncontrollably."
+
+"..then her tummy…"
+
+ha "Hahahahaha!"
+
+"…then her ribs just beneath her breasts."
+
+ha "S-stop, h-h-hee-hee-hee!"
+
+"At this point I'm using both hands to tickle several areas at once. Hanako is literally crying with laughter."
+
+"I realize I'm taking a bit of a risk right now. If one of her flailing arms accidentally hits me in the chest, I'll probably go out like a light and I doubt an ambulance could get here very quickly."
+
+"Still, seeing the usually subdued Hanako like this is an interesting experience."
+
+ha "Hahaha st-stop, I hee hee a-admit hee hee it! I admit it!"
+
+play music music_pearly fadein 2.0
+
+"I immediately stop tickling her, get off of her and sit across from her as she tries her hardest to catch her breath."
+
+hi "I never knew you were this ticklish."
+
+show hanako emb_blushtimid_cas_close
+with charachange
+
+"Hanako's now panting as if she just sprinted a kilometer uphill."
+
+"As her breathing slowly returns to normal, she sits up and wipes the tears from her eyes. I half expect her to angrily walk away, but instead she just sits there."
+
+hi "I think this kind of proves my point, don't you agree?"
+
+ha "Ummm…."
+
+"Not willing to let her back down, I reach out and make a tickling motion in the air with my fingers. Hanako immediately shivers, crosses her arms in front of her chest and lets out an involuntary giggle."
+
+ha "Th-that tickles. D-don't get near me."
+
+hi "I didn't even touch you just now. Anyway, don't you agree?"
+
+"She doesn't say anything, but she carefully leans forward and gives me a kiss on the lips."
+
+"As unorthodox as it may have been, I think my method of cheering her up worked. I've never heard Hanako laugh like that before."
+
+"I hope that someday she'll be able to laugh like that without being forced into it."
+
+show hanako emb_downsmile_cas_close
+with charachange
+
+ha "Hisao?"
+
+hi "Yes?"
+
+ha"I'm okay now. Just d-don't do that again, promise?"
+
+hi "It's a big temptation, but okay. I promise."
+
+ha "Shall we go back now? I'm a bit tired after all this."
+
+hi "Lead the way."
+
+hide hanako
+with charaexit
+
+#scene hok_houseext_ni Night version of hokkaido summer house
+
+"We slowly walk back to the summer home at the far end of the wheat field."
+
+"As we approach the patio, which is pitch-black due to being in the shadow of the building, we hear Lilly's familiar voice from somewhere."
+
+li "Welcome back, Hanako, Hisao. Have you enjoyed your walk?"
+
+"I am about to ask Lilly where she is when I hear a soft thud followed by a startled yelp. Seems like Hanako, who was walking slightly ahead, has already found her."
+
+show lilly basic_oops_cas at twoleft
+with charaenter
+
+show hanako basic_worry_cas at tworight
+with charaenter
+
+ha "I-I'm sorry, Lilly. I didn't see you."
+
+li "My, is it that late already? Please wait here for a moment."
+
+"We hear measured steps head towards the house followed by the sound of an opening door. A few seconds later, a light near the patio door flicks on as Lilly emerges and heads back towards the chair she was sitting in before Hanako nearly tripped over her."
+
+play sound "sfx/switch.ogg"
+
+show lilly basic_smileclosed_cas at twoleft
+with charaenter
+
+hi "We'll be going inside, Lilly. Care to join us?"
+
+"Lilly picks up a discarded book lying near the chair and holds it up for a moment."
+
+li "I only have a few pages left. I will be with you in a few minutes. Please make yourselves comfortable."
+
+li "And ah…Hanako?"
+
+show hanako basic_normal_cas at tworight
+with charachange
+
+ha "Yes, Lilly?"
+
+show lilly basic_giggle_cas
+with charachange
+
+"She sends us a playful grin."
+
+li "Can you retrieve the bottle we opened this morning? I believe a glass before bedtime will help us sleep all the better."
+
+window hide
+
+scene black onlayer master
+with dissolve
+
+call timeskip
+
+#call script-c0

@@ -1,8 +1,4 @@
 label en_chapter3:
-window hide None
-
-scene black onlayer master
-with None
 
 scene bg school_nurseoffice onlayer master
 with Dissolve(2.0)
@@ -69,6 +65,8 @@ nk "Just an informal chat, I've been told. If you could drop by after your last 
 "That isn't a satisfying answer at all, but I still need to get back to the dorms and take a shower before class, so I leave the office without prying any further."
 
 scene bg school_nursehall onlayer master
+with locationchange
+
 play music music_soothing fadein 2.0
 
 "After class, as I reach the corridor leading to the nurse's office, I can see he's already waiting for me outside. He greets me with his usual fox-like smile."
@@ -104,12 +102,13 @@ with locationchange
 "The nurse seems amused by my surprised reaction and puts his hand on my shoulder in an overly personal fashion."
 
 show nurse neutral onlayer master at center
+with charaenter
 
 nk "I feel that over the last few days we've grown close enough to each other for me to introduce you to my mother."
 
 "Before I can fully digest his extremely out-of-place joke, the old lady behind the table rises to her feet and approaches us while shooting the nurse a stern glare."
 
-#show takawa neutral at center
+#show takawa basic_neutral at center with charaenter
 
 mystery "If I was truly your mother, dear colleague, I would have taught you how impolite it is to make these kinds of remarks before even introducing us properly."
 
@@ -117,9 +116,14 @@ mystery "If I was truly your mother, dear colleague, I would have taught you how
 
 nk "This young man next to me is Hisao Nakai whom I'm certain you've heard plenty about by now. My colleague here who wanted to meet you is called Miss Takawa."
 
+#show takawa basic_smile with charachange
+
 tak "Yumi Takawa. I'm very pleased to make your acquaintance, Mister Nakai."
 
 "The old woman in front of us makes a graceful bow as the nurse continues."
+
+show nurse neutral onlayer master
+with charaenter
 
 nk "Here at Yamaku, our primary focus is to help students deal with the physical implications of their conditions."
 
@@ -142,6 +146,8 @@ with charaexit
 
 "As the nurse closes the door, the woman in front of me gives a tired smile."
 
+#show takawa basic_smile with charaenter
+
 tak "You'll have to excuse my colleague. He is a fine young man, but I believe he enjoys his own jokes a little bit too much sometimes."
 
 "She makes an inviting gesture over to the table in the middle of the room."
@@ -162,6 +168,8 @@ hi "Uh…sure. I mean…please."
 
 "But unlike Lilly's unfocused and cloudy gaze, Miss Takawa's gaze is sharp and analytical."
 
+#show takawa basic_calculating with charachange
+
 tak "If I may ask, Mister Nakai… Did my colleague tell you why I wanted to meet you?"
 
 hi "No, not really. All he said was that it was informal."
@@ -174,6 +182,8 @@ tak "Correct. I have no reason to believe you yourself are in need of my service
 
 hi "You're a counselor, aren't you? Are you by any chance Hanako's therapist?"
 
+#show takawa basic_smile with charachange
+
 "The old lady gives an appreciative smile at my deduction."
 
 tak "Well reasoned, Mister Nakai. My specialty is cognitive behavioral therapy, and Miss Ikezawa does indeed happen to be one of my clients."
@@ -182,6 +192,8 @@ tak "Well reasoned, Mister Nakai. My specialty is cognitive behavioral therapy, 
 
 hi "Sorry for the reaction. I've always thought of therapists as bearded guys with thick glasses."
 
+#show takawa basic_chuckle with charachange
+
 "Miss Takawa covers her mouth with her hand and chuckles briefly. I doubt this was the first time she heard about that stereotype."
 
 tak "Plenty of those exist around here as well."
@@ -189,6 +201,8 @@ tak "Plenty of those exist around here as well."
 hi "So I guess this is about my relationship with Hanako?"
 
 tak "You've come up with increasing frequency in recent sessions. When Miss Ikezawa started referring to you as her boyfriend, I felt it might be a good idea to meet you myself and create my own impression of you."
+
+#show takawa basic_smile with charachange
 
 "She smiles playfully."
 
@@ -205,6 +219,8 @@ tak "I merely wish to get a general impression of you. Would you be willing to t
 "There are plenty of things and events that took place regarding our relationship that I don't care to talk about with this person, especially since I don't know what Hanako has told her."
 
 "So I just end up describing a few moments I've had with Hanako to her like our first meeting in the library, our first game of chess during the festival and our various outings in the city."
+
+#show takawa basic_neutral with charachange
 
 "As I relay these events, Miss Takawa listens to me without saying a single word."
 
@@ -232,6 +248,8 @@ hi "For how long have you worked here at Yamaku?"
 
 "Miss Takawa raises her eyebrows for a second and then smiles."
 
+#show takawa basic_grin with charachange
+
 tak "Very well played, Mister Nakai. I have only worked here for a little over a year."
 
 "That means Hanako must have been meeting with at least one previous therapist in the past to whom she presumably didn't open up. Somehow I'm not really that surprised."
@@ -243,6 +261,8 @@ tak "Am I correct in my assumption that you don't seem to believe me?"
 hi "I haven't known Hanako for as long as you have, but considering how she's grown over the last period, I feel that instead of therapy, maybe all Hanako really needed were friends."
 
 "I prepare myself for an offended reaction, but Miss Takawa doesn't seem fazed."
+
+#show takawa basic_smile with charachange
 
 tak "I don't believe that the two are mutually exclusive. In fact, I believe Miss Ikezawa benefits most from having both."
 
@@ -274,7 +294,13 @@ hi "Then I'll be going now. Hanako and I are planning to welcome Lilly back this
 
 tak "I hope Miss Satou has had a pleasant trip abroad. Take care of yourself, Mister Nakai."
 
+#hide takawa with charaexit
+
 hi "After a polite greeting I leave the secluded 'office' and hurry back to the exit of the staff building. There are still plenty of things to do before tonight."
 
+window hide
+
+scene black onlayer master
+with shorttimeskip
 
 call en_chapter4

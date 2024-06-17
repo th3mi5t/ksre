@@ -281,11 +281,11 @@ aki "How about I go down to the cellar and fetch us something to celebrate? Wann
 
 li "Yes, please."
 
-play music music_timeskip fadein 2.0
-
 window hide
 
 scene black onlayer master
-with None
+with dissolve
+
+call timeskip
 
 call en_chapter2
