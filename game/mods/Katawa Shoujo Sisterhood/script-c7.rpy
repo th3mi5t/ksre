@@ -1,14 +1,11 @@
 label en_chapter7:
 #6,17,15,14,15,14,41,21;
-    #school days, concord, generic, raindrops,generic,raindrops,friendship, passing
-    #play music music_lilly fadein 2.0
-    #play music music_comedy fadein 2.0
-    #play music music_dreamy fadein 2.0
-    #play music music_comedy fadein 2.0
-    #play music music_dreamy fadein 2.0
-    #play music music_friendship fadein 2.0
+ 
 
 play music music_normal fadein 2.0
+
+scene bg school_scienceroom onlayer master
+with Dissolve (2.0)
 
 "Ten more minutes until lunch break. We've already completed the assignment we were given, so now I've taken out one of my library books and am trying to finish a chapter before the school bell rings."
 
@@ -54,24 +51,730 @@ ha "E-exc…e-excuse me..."
 
 "That got their attention. The girls looked at me, and when I didn't reply, they looked at Hisao who gave them a quick nod. My neighbor gave me a cheerful grin."
 
-show miki grin with charaenter
+#show naomi basic_grin with charaenter
 
-mk "Looking for a group to work with, Ikezawa?"
+nao "Looking for a group to work with, Ikezawa?"
 
 "I gave them a timid nod."
 
-mk "No probs. Feel free to tag along. Three know more than two, right?"
-As I moved my desk over to theirs, my neighbor Naomi wasted no time in making conversation.
-"Bet you were disappointed you couldn't work with Nakai this time, weren't you? You two usually do
-assignments together these days. Heh, I guess the powers that be decided otherwise, didn't they?"
-Am I really supposed to answer all of that?
-"You're usually not big on group work, aren't you? Didn't something happen that time before in science
-class? Don't worry, stuff like that happens to the best of us. But you know that, don't you? You're
-usually stuck with the front row seat when I short out."
-The last statement was accompanied by a cheerful wink.
-Too many questions!
-While I was still reeling from Naomi's verbal machinegun fire, her neighbor Natsume cut in with a
-question of her own.
-"Japanese is one of your stronger subjects, is it not?"
+nao "No probs. Feel free to tag along. Three know more than two, right?"
+
+"As I moved my desk over to theirs, my neighbor Naomi wasted no time in making conversation."
+
+nao "Bet you were disappointed you couldn't work with Nakai this time, weren't you? You two usually do assignments together these days. Heh, I guess the powers that be decided otherwise, didn't they?"
+
+"Am I really supposed to answer all of that?"
+
+nao "You're usually not big on group work, aren't you? Didn't something happen that time before in science class? Don't worry, stuff like that happens to the best of us. But you know that, don't you? You're usually stuck with the front row seat when I short out."
+
+"The last statement was accompanied by a cheerful wink."
+
+"Too many questions!"
+
+"While I was still reeling from Naomi's verbal machinegun fire, her neighbor Natsume cut in with a question of her own."
+
+#show natsume basic_neutral with charaenter 
+
+nat "Japanese is one of your stronger subjects, is it not?"
+
+"I responded with another meek nod. It's true, Japanese is probably my best subject. It was one of the benefits of being a bookworm. The fact that I was fairly confident I'd be able to pull my weight on this assignment was one of the things that made the whole thing slightly easier."
+
+#show naomi basic_grin at twoleft with charachange 
+#show natsume basic_smile at tworight with charaenter 
+
+nat "Great, then we'll finish this all the sooner."
+
+"Naomi seemed eager to begin, and I quickly nodded in order to avoid more conversations."
+
+"We divided the workload into three parts and got to work. While writing my section of the piece, I occasionally observed my new group mates."
+
+"Natsume and Naomi remind me a bit of less extreme versions of Shizune and Misha. Natsume wears glasses and has a stern appearance, but isn't as bossy or forceful as Shizune."
+
+"The most striking part of Naomi's appearance is her hair which, while not dyed like Misha's, is bleached to a distinct light blonde color. Her personality is a bit like Misha's as well - up-beat, loud and a bit hyper, though Naomi's volume control button doesn't seem to be permanently stuck on the max setting. Also, like Shizune and Misha, the two seem together constantly."
+
+"We finished the assignment with a good amount of time to spare and my group mates had started on a piece of homework I already finished the other day."
+
+"If I had been working with Hisao, we'd probably have spent the remaining time talking with one another, but I don't think I'd be able to have small talk with my new group mates…"
+
+"Keeping semi-normal interaction going with them had already drained most of my energy, and the tension I felt during our working session isn't fading nearly as quickly as I hoped."
+
+scene bg school_scienceroom onlayer master
+with shorttimeskip
+
+#show naomi basic_shock with charaenter at twoleft
+#show natsume basic_neutral with charaenter at tworight
+
+nao "Well, CRAP!"
+
+"I look at Naomi from behind my book, startled by her sudden exclamation, and see her wrestling with a pair of compasses. She's been playfully fiddling with them over the course of the entire assignment and now she seems to have jammed them somehow."
+
+nao "Natsume!"
+
+nat "They were never meant to be used to grind little pieces of your eraser into powder."
+
+nao "I know. I know. Now can I just…"
+
+nat "I left mine in my dorm room. I already finished that question this morning before heading to classes."
+
+#show naomi basic_sad with charachange at twoleft
+
+"She lets out a disappointed sigh."
+
+"After a few more seconds of trying to get her compasses unstuck, Naomi suddenly turns to me, causing me to instinctively raise my book as if to shield myself."
+
+nao "Hey Ikezawa, don't you have a pair of compasses I could use? Just for a sec. I'll be really, really careful with them. Okay? Just to complete this little graph. You'll have them back in the blink of an eye. Pretty please with sugar on top?"
+
+ha "I-I d-don't have any of t-those."
+
+nao "You don't? Then how did you take care of that problem where we had to draw up that pie chart as part of the answer?"
+
+ha "I t-t-typed it up."
+
+#show naomi basic_shock with charachange at twoleft
+
+nao "Huh?"
+
+"I sigh inwardly. I don't think I'd be able to finish a verbal explanation without it taking another hour, so I reach into my bag and just show her the answer sheet I put together the day before, neatly typed out on one of the school's computers. I used the word processor's graph features to generate the pie chart."
+
+nao "Oh hey, that first answer is totally different from what I had. I wonder if I missed something or if you were simply over thinking the… Eh, never mind."
+
+nao "That's pretty neat you put together your answers like that. Do you often use computers to type up your homework?"
+
+"Why is she so interested?"
+
+ha "S-s-sometimes, b-but not v-very often."
+
+"I mostly use the school computers to put together essays or other homework that requires a lot of writing. The scar tissue on my right wrist sometimes hampers my movement a bit, so I'm not a very quick writer."
+
+"Typing out my homework can be a big time-saver at times. The only downer is the fact the computer lab has no quiet little corners, meaning I only use the place when it's nearly deserted, which isn't very often."
+
+#show naomi basic_smile with charachange at twoleft
+
+"Naomi seems satisfied with my answer, and I return to my book. As I turn another page, I'm starting to notice something is different. Naomi and Natsume are no longer working on their homework, but are speaking to each other in whispers too quiet for me to make out, and they occasionally look in my direction."
+
+"I wonder if it's about me. I get very uncomfortable. Are they gossiping about me? Both are members of the newspaper club which is responsible for writing and printing the school newspaper, and Naomi in particular loves to keep on top of the local rumors floating around."
+
+"Is acute indiscretion an officially recognized condition? If so, she'd probably be diagnosed with it. As if to confirm my suspicions, Naomi suddenly addresses me with a conspiring smile."
+
+nao "Hey, Nakai is still your boyfriend, isn't he? I mean, you guys haven't broken up yet or anything, right?"
+
+"I visibly reel back from the impact of this blunt question and barely manage to shake my head."
+
+ha "W-we're s-still d-dating."
+
+#show naomi basic_grin with charachange at twoleft
+
+nao "You know, as of last week you're officially dating a geek. You're not put off by nerdy traits in your guys, are you?"
+
+"Your guys? She's talking as if I've been dating boys ever since I enrolled here. I know what this is about though."
+
+"A new club was formed last week and our homeroom teacher Mutou is in charge of it. It's a science club, of course… The only kind of club he'd have interest in setting up. And I'm currently dating its sole member."
+
+"It's a bit weird, but Hisao said the club's main activity, reading and discussing scientific literature, has been pretty fun so far."
+
+ha "Er…"
+
+nao "It's kinda sad there's still only one member though. I suppose you're not joining to flesh out membership?"
+
+"I did actually offer to join, but Hisao shot that suggestion down almost immediately. \"Science isn't really your thing, Hanako,\" he told me. \"It'd just feel like class to you. If you want to join a club, you'd be better off finding something that actually captures your interest.\"" 
+
+"I couldn't really argue with that. Unlike Hisao, who seems to have a knack for deciphering Mutou's convoluted lectures, I'm not exactly a star pupil in science class, and it's hardly my favorite subject."
+
+ha "N-no, I'm n-not."
+
+#show naomi basic_smile with charachange at twoleft
+
+nao "But you won't be able to hang out with your boyfriend after school hours, because he's in a club and you're not, right?"
+
+"What is she trying to get at?"
+
+"Natsume, who had remained silent during the whole interrogation put her hand on Naomi's arm to indicate she wanted to say something."
+
+nat "What Naomi is trying to ask you is if you'd be willing to help out the newspaper club with an emergency situation for a few days."
+
+#show naomi basic_concern with charachange at twoleft
+
+nao "Hey, I was still getting to that point!"
+
+ha "H-help out?"
+
+"Is this a veiled recruiting attempt? And why me? There's probably dozens of other students more suitable."
+
+nao "Yeah, you probably know we're both members there. Most of the members write or collect stories for the school newspaper, but we also have someone to put them together on the computer before we send the whole thing to the copy shop. At least, we usually do."
+
+nat "Unfortunately, the girl who usually does the job is out of commission for a little while. She injured herself a few days ago and certainly won't be able to help before the deadline."
+
+nao "Yeah, she broke her hand after tripping outside her dorm room. She has this thing called os…osto-something. Anyway she breaks easily."
+
+nao "And now we need someone who can do the data entry and some minor editing jobs in her place for a few days."
+
+ha "B-but w-w-why me?"
+
+nat "There aren't that many students here who aren't already part of another club or don't have other tasks like class representative duties to tend to and who are also capable with computers."
+
+nat "When we saw the way you made a digital print of your homework, we thought you might be able to help us out."
+
+nao "Yeah, I mean, it's not a really complex task. And there's not a lot of distractions there either. The place the club uses has a small side room where we keep the computers and archives."
+
+"I really don't know about this. The idea of getting involved in a club with nothing but people I'm unfamiliar with sounds terrifying."
+
+#show naomi basic_smile with charachange at twoleft
+
+nao "You don't have to decide right now, you know? But it'd be good if we got a yay or nay before the end of tomorrow."
+
+ha "Well…I…"
+
+play sound sfx_normalbell
+
+"While I'm still fumbling with my words, the school bell sounds, and most people immediately start getting up. Hisao collects his things, quickly gets away from Shizune and Misha and approaches my desk."
+
+#hide naomi with charaexit
+
+#hide natsume with charaexit
+
+#show hisao basic_smile with charaenter
+
+hi "Hey Hanako. Sorry about not being able to team up. Did you complete the assignment?"
+
+ha "Y-yes, we even managed to finish ahead of time."
+
+hi "Great. Let's head to the tea room, then."
+
+"Phew. Saved by the cavalry."
+
+ha "S-sure, I'll be with you in a second."
+
+"As Hisao starts heading towards the exit, Naomi suddenly addresses me again."
+
+#hide hisao with charaexit
+
+#show naomi basic_smile with charaenter
+
+nao "Hey Ikezawa, just to reassure you; this isn't a recruiting attempt, though we always welcome new members of course. But if you'd be willing to help out the newspaper club, we'd be really thankful. Think about it, okay?"
+
+"Why is she shouting like that? I'm sitting right in front of her."
+
+#hide naomi with charaexit
+
+"Without waiting for a reply, Naomi and Natsume gather their belongings and walk off, past Hisao who has turned around and is looking at me with a curious expression on his face. Wait… Did he overhear?"
+
+#show hisao basic_smile with charaenter
+
+hi "That sounded pretty interesting, Hanako."
+
+"I can only sit there with my mouth agape as I realize that my cavalry has just been turned into Naomi's cavalry instead."
+
+scene bg school_miyagi onlayer master 
+with shorttimeskip
+
+play music music_lilly fadein 2.0
 
 
+
+li "Were you really asked to join a club?"
+
+"As expected, the main talk of our lunch break was Naomi's proposal. Lilly was understandably surprised to hear of this sudden development."
+
+ha "I-it's not really about joining. They have a deadline for the end of the week and need some help."
+
+li "Have you already decided what to do?"
+
+"I haven't. On the one hand, I must admit I'm a bit curious. On the other hand, Naomi and Natsume, with whom I've never even really interacted before, are the most familiar people in there, and I can't really say their presence is a calming factor for me."
+
+"While I don't think Naomi is the kind of person to hold a grudge, the fact remains that if I mess up or disappoint somehow, classes will become much more uncomfortable. Naomi and Natsume will still be my neighbors until the end of the school year."
+
+ha "N-no, I haven't."
+
+hide lilly with charaexit
+
+#show hisao basic_grin with charaenter 
+hi "Someone told me not too long ago that it's important to seize opportunities if they're handed to you on a platter like this."
+
+"Hisao has decided to jump into the fray too. I roll my eyes at his remark. Those are the exact same words I used last week to convince him to give Mutou's science club idea a chance."
+
+"At first he was reluctant, afraid he'd have less time to spend with me. The last thing I wanted to do was hold him back, so I did my best to convince him to give the whole thing a try."
+
+"I knew the subject interested him, and I hoped this would also encourage him to make more definite plans for his future. He consistently scores the highest marks in class in Mutou's subject, and I genuinely believe that he'd do very well if he went for a career in that direction."
+
+ha "I-I know I said that last week. I'm not ruling the opportunity out r-right away."
+
+#show hisao basic_grin with charaenter 
+
+hi "You could choose to see it as a sign that fate is extending you a helping hand."
+
+"By breaking somebody else's? That's kind of a cruel way to motivate someone. Fate must know how easily I can be guilt tripped."
+
+"I merely nod. I don't believe the work itself will give me much trouble. What scares me is the idea of being thrown into a group of unfamiliar people who might stare at my scars, who might be put off by my stammering (which always gets worse whenever I'm feeling nervous), my shyness and inability to make conversation."
+
+"A few weeks ago, I was still the 'shy kid who kissed her first boyfriend in public' to people, but tomorrow I might be the 'shy kid who panics at the most mundane things' once again."
+
+hi "Anyway, if you're considering it, it might be best to go this afternoon. I could pick you up afterwards when I'm done with my club meeting. If you're nervous and wait until tomorrow, you might lose sleep over it."
+
+"That's a pretty good point. Knowing myself, I'd probably mull over it all night long, and I'd only become more prone to messing up."
+
+ha "O-okay, I'll give it a t-try after classes t-today."
+
+play sound sfx_snap
+
+#hide hisao with charaexit
+
+show lilly basic_smile with charaenter
+
+"Lilly claps her hands excitedly upon hearing my words."
+
+li "Wonderful. I hope you two will be willing to join me for some tea tonight. I'd really like to hear how things played out."
+
+"I smile. It's been a while since we last sat together in Lilly's room to talk and relax. Having something to look forward to will make things easier."
+
+ha "T-that would be nice."
+
+hi "We'll be there, Lilly."
+
+scene bg school_room32 onlayer master 
+with shorttimeskip
+
+play music music_comedy fadein 2.0
+
+#show naomi basic_smile with charaenter
+
+nao "So while the classroom is the place we use as an editorial office, most of the editing takes place here. We have two computers here, though only one is regularly used. The other's more like a digital archive."
+
+nao "You can take a look at it later for examples of how we've been doing things. And here's the cabinet where we store most of our equipment. It isn't very large as you can see. Oh hey, you're not claustrophobic, are you?"
+
+ha "N-n-no, I'm n-not."
+
+"Naomi was visibly surprised when I showed up at their club's classroom after school, but wasted no time giving me a brief tour. Good thing only she and Natsume were around when I arrived."
+
+nao "I think Jun, the girl who is usually doing this, has some templates saved which she uses for the various pages of each issue. But that's not really the number one priority we have at this point."
+
+nao "The most important thing to do now is to get all the stuff we have digital. By the way, do you have any questions so far?"
+
+ha "Ummm… s-so I j-just t-type up the a-articles you wrote?"
+
+nao "Eager to get started, huh? Neat."
+
+"More like eager to end this one-sided conversation."
+
+"Naomi opens the nearby cabinet and fishes out several small digital recording devices and a flash drive. Putting them and a small pile of hand-written notes on the nearby desk, she makes a sweeping gesture over it."
+
+nao "Here's what we have so far! Jun has already made a folder for the upcoming issue and a shortcut on the desktop. This memory stick is from Kaoru. He likes to type up all his articles himself, so all you have to do is copy them to the right folder and then print me a copy to look it over."
+
+"She takes out one of the recorders and picks up a small USB cable from the desk."
+
+nao "Several of our members use these to compose their contributions. Hideki's completely blind and not too techno-savvy, so he just dictates his articles. Natsume uses these too whenever her joints are hurting. Like… the last few days."
+
+nao "Anyway, just plug one of these in with this cable here, and the application for playing the contents should start automatically. It'll be easier than rewinding and replaying manually."
+
+nao "Always check the sections at the very end first. They often contain comments on whether to omit or alter certain portions. And the written notes here just contain articles and interviews by the rest."
+
+ha "I-I'll s-start p-putting these in then."
+
+nao "Cool. I'd do this myself, but I can't sit in front of monitors for very long for a while. Nurse's latest orders. I can be a bit sensitive to them. They sometimes cause, you know, short-circuiting."
+
+"I know alright. Naomi's reason for attending Yamaku is a pretty heavy case of epilepsy, and over the years, she's had several harsh episodes right next to me in class. The first time she fell out of her chair and started thrashing around on the floor got me so riled up I couldn't sleep for days. I'm still not completely used to it."
+
+nao "Anyway, be sure to let the computer do a spelling and grammar check on everything to save ourselves some trouble later. You have any questions, Natsume and I'll be in the other room."
+
+ha "A-alright."
+
+
+scene bg school_dormhallway onlayer master
+with Dissolve(2.0)
+play music music_dreamy fadein 2.0
+
+"Having left Lilly's room, I unlock the door to my own bedroom and prepare to kiss Hisao goodnight and retire for the day when he stops me."
+
+#show hisao basic_smile with charaenter
+
+hi "Can I come in for a little while?"
+
+ha "S-sure."
+
+scene bg school_dormhanako onlayer master
+with wipeleft
+
+"We go in, and he sits next to me on the bed."
+
+hi "You're going back to the newspaper club tomorrow, aren't you? Even though you said you didn't know yet."
+
+ha "I… I think I want to at least finish what I started today."
+
+"That isn't the only reason. I also want to start feeling more reliable. For a long time, I've felt like a useless person, unable to be there for others. Today, I had an opportunity to deconstruct that belief, but my social anxiety nearly ruined it for me."
+
+"Even though Naomi and Natsume were friendly, I felt on edge all the time. By the time we went back to the dorms, I felt exhausted. Even though we just had tea with Lilly, I'm still tense all over."
+
+hi "You look tired. And tensed up."
+
+ha "D-do you think I s-should skip tomorrow?"
+
+hi "I don't think I can make that decision for you. But if it helps, I might be able to help you relax a little bit. Do you want to?"
+
+"He sits back a bit, spreads his legs and gestures me to sit in front of him. I smile."
+
+ha "Y-yes, please."
+
+"I sit in front of him, drape my hair over my shoulders and gently pull the shoulders of my nightgown away, causing it to slide down to just above my breasts. I let my chin rest on my chest and try to relax. I hear him rub his hands together for a bit and then feel one touch my exposed left shoulder."
+
+hi "Wow, your shoulders and your neck are really stiff this time."
+
+ha "I'm… not very good with people, so situations like these will probably always cause me stress."
+
+hi "Even though people were friendly today?"
+
+ha "I-It's not something rational. I really wish it was. It'd be a lot easier to control."
+
+"He starts carefully rubbing and kneading my neck and shoulders. We've been giving each other these little massages for a while now, and I've really come to enjoy them."
+
+"While I can't feel the sensation of his hand touching and rubbing the skin of my right shoulder, I still feel the result in my muscles there afterwards. It almost feels like I'm challenging my condition this way."
+
+hi "But it'll get less as you get used to it, right? You used to be awkward in my presence too, remember?"
+
+ha "Y-yes. It will get less as long as I can manage to keep going. At least, I hope it will."
+
+hi "Then we'll keep helping you relax afterwards. Lilly and me. We'll just repeat this evening tomorrow. And the day after tomorrow. Until it's no longer necessary."
+
+ha "T-thank you, Hisao."
+
+"We remain silent for a few minutes as Hisao finishes massaging my shoulders, neck and upper back. He moves back, gives a quiet nod to me, and I lie down and let my head rest in his lap."
+
+"I close my eyes as his hands start massaging my scalp and temples."
+
+hi "Does it feel good?"
+
+ha "Yes."
+
+"..."
+
+hi "Hanako?"
+
+ha "Hmmm?"
+
+hi "Do you have any plans for the upcoming weekend?"
+
+ha "Not really."
+
+hi "Would you like to go on a date the upcoming Saturday?"
+
+ha "Sure."
+
+hi "Great. We'll have a bite to eat at the Shanghai around six and then be on our way."
+
+ha "Do you already have something planned?"
+
+hi "Yep. I was already planning it before this whole newspaper club business came up."
+
+ha "What is it?"
+
+#show hisao basic_grin with charachange
+
+hi "A surprise."
+
+ha "Awww."
+
+"Hisao finishes his massage with a ruffle of my hair. I get up and fix the shoulders of my nightgown."
+
+#show hisao basic_smile with charachange
+
+hi "Loosened up a bit?"
+
+ha "Yes, it really helped."
+
+#show hisao basic_wink with charachange
+
+"As I turn around to face him, Hisao gives me a playful wink."
+
+hi "If you want me to give you a more extensive massage…"
+
+"As I grasp the meaning behind his remark, I reflexively turn my head away although I doubt my attempt at hiding my extensive blush is successful."
+
+"Lately there have been a few times we started with a mutual backrub and ended up… doing… what we did that night in Hokkaido."
+
+ha "N-n-not t-this t-time."
+
+#show hisao basic_smile with charachange
+
+hi "Okay."
+
+ha "Ummm…"
+
+hi "Yes?"
+
+ha "C-can I return the favor, Hisao?"
+
+hi "You don't really need to. I'm not feeling tense right now."
+
+"As he gets up from the bed, I grab hold of his hand."
+
+ha "Umm… P-please?"
+
+"Hisao gives me an extended analytical stare that makes me nervous, but then gives a quick nod, sits down in front of me and starts unbuttoning his shirt."
+
+hi "Alright then, Hanako."
+
+scene bg school_room32 onlayer master
+with Dissolve (2.0)
+
+play music music_comedy fadein 2.0
+
+#show naomi basic_grin with charaenter
+
+nao "Nice! You got all content digital now?"
+
+ha "Y-yes. Everything."
+
+nao "Great, that was pretty quick overall."
+
+"It was more work than I expected. Especially the audio recordings took a while to type up. But now all articles and interviews are saved as documents."
+
+ha "T-thanks."
+
+nao "Could you print them all out? The pictures and templates for all the pages too. And then come and sit here next to me."
+
+ha "I-I'm not done yet?"
+
+nao "I can't force you to do more than you want, but there's still something else to do and we're getting to the part that I think you'll like."
+
+"I simply nod and return to the computer room. A few minutes later I return to Naomi with a stack of paper containing everything I digitized over the last two days."
+
+"Naomi is usually loud and somewhat chaotic, but in her role of editor-in-chief she becomes a bit more serious and structured than usual and I have an easier time keeping up (and putting up) with her."
+
+#show naomi basic_smile with charachange
+
+nao "So here's the templates we have for each page of the newspaper. Now we're gonna have to see what articles go where."
+
+nao "We have the front page for the main article, five pages for internal news, three pages for external news, one page for advertisements, one page for columns and one page for sponsor-related stuff."
+
+ha "So n-now what?"
+
+nao "Each article has a number. So now we take a few empty sheets of paper and each try to come up with a layout that'll get us the articles in the places we want."
+
+ha "T-two layout proposals?"
+
+bai "It's nice to have a second opinion. Just try to estimate how much space each article will take up and how much redundant content each article has that can be cut or shortened."
+
+#hide naomi with charaexit
+
+"We spend the next hour trying to come up with our own layout. I do my best not to look in Naomi's direction in order to avoid copying her idea. After I hand in my proposal, she puts the two sheets of paper side by side."
+
+#show naomi basic_smile with charaenter
+
+nao "Looks like we have similar ideas on a lot of stuff. But I didn't think of putting that article about the exposition into external news instead of internal."
+
+ha "I-I thought i-it could fit b-both. I-it's being organized b-by a teacher from here, b-but t-together with an ex-external p-party and n-not on the school grounds."
+nao "Maybe. Maybe. It'd save us from having to severely truncate that story about the baseball tournament. Okay, we'll go with my layout with the exposition story moved from page five to page eight instead."
+
+nao "Could you paste the contents into the template pages? You'll run outside the borders in several places, but we need to know what articles to trim or reword a bit. You can fiddle a bit with the pictures on page two, five and six as long as the faces remain recognizable. Let's get started."
+
+ha "Y-yes."
+
+"I quickly get to work. We have one and a half day to get everything done. I'll have time to relax this evening, but until then, I feel pressed to work as swiftly as possible."
+
+scene bg school_dormlilly onlayer master
+with Dissolve(2.0)
+
+play music music_dreamy fadein 2.0
+
+"Barely breathing, I wait as Lilly runs her slender fingers across the last page of the newspaper's Braille edition. Since she appears to be getting close to the end, her fingers must be near the staff section right now."
+
+"Suddenly, her fingers stop and skim over a section a second time. It looks like she read the part that bears my name."
+
+show lilly basic_cheerful_paj with charaenter
+
+li "Assistant Editor: Hanako Ikezawa."
+
+"Lilly breaks into a dazzling smile as she reads the line I knew would catch her attention. A smile that proves very infectious."
+
+li "Hanako, this is great."
+
+"I nod humbly, but in truth I'm very proud of the result. It took a lot of effort, but we managed to meet the deadline and get the newspaper printed today. Everyone at the newspaper club was very satisfied with this latest issue." 
+
+"Tomorrow, the student council will be distributing it among the rest of the student body, but I couldn't wait that long and took three copies in advance. One for Hisao, one for myself and a Braille edition for Lilly."
+
+hide lilly with charaexit
+
+#show hisao basic_question_paj with charaenter
+
+hi "Hey Hanako, is it difficult to create a newspaper in Braille?"
+
+"I nod my head."
+
+ha "The newspaper club has software that can convert normal documents into a file type that a Braille printer can work with. I've used it myself yesterday. It's a lot of work, but there's a member at the club who can read Braille and helps us with this. I just operate the s-software according to his instructions."
+
+#show hisao basic_laugh_paj with charaenter
+
+"Hisao laughs and playfully ruffles my hair."
+
+ha "I didn't know my girlfriend had this nerdy side to her."
+
+"Before I can think up a reaction of my own, Lilly is already eagerly pouncing on his remark."
+
+show lilly basic_giggle_paj with charaenter at twoleft
+
+li "Wouldn't that make her a perfect match for the current president of the science club, Hisao?"
+
+#show hisao basic_neutral_paj with charaenter at tworight
+
+"Hisao's only reply is a mock-offended huff that makes both of us burst out in giggles."
+
+hi "I'm not going to argue that point."
+
+li "A wise decision, Hisao."
+
+show lilly basic_smile_paj with charachange at twoleft
+
+#show hisao basic_smile_paj with charachange at tworight
+
+hi "So Hanako, do you have any plans to continue this?"
+
+ha "T-this was only a temporary solution to meet this week's deadline. But they said they'd welcome any help I could offer them."
+
+hi "It sounds like they want you to stick around."
+
+ha "I-I might give it another try next week. Maybe."
+
+hi "Sounds like a great plan. Where were they this afternoon anyway? The club's classroom was deserted when I dropped by."
+
+"I smile a bit sadly at that."
+
+ha "After a new issue is printed and handed over to the student council for distribution, the club always goes into town to relax and celebrate the release in one of the coffee shops there."
+
+show lilly basic_concerned_paj with charachange at twoleft
+
+#show hisao basic_neutral_paj with charachange at tworight
+
+"Lilly frowns a bit at my explanation."
+
+li "And they did not invite you to come along as well?"
+
+ha "They did. It's just… If I went along, I don't think I'd be able to relax enough to have fun. All I'd be doing would be watching the others have fun."
+
+"That was pretty much the gist of it. This week, I've been forced to communicate with the club members in order to get things done, and I found that as long as the conversation remained strictly about the tasks at hand, I could manage with a bit of effort." 
+
+"But in the face of any small talk, I'd quickly freeze up. I didn't think I'd add much to the social event the club was planning, and it'd be better if I didn't go and attend. I can be on my own just fine, but being at a celebration and being the only one not having fun never fails to make me feel terribly lonely. I felt pretty good about the release and didn't want to do anything that might ruin my mood."
+
+li "Maybe if you spend enough time there, they'll grow on you."
+
+ha "M-maybe."
+
+"We spend the rest of the time making small talk with me occasionally answering questions about last week's activities until Lilly lets out a small yawn from behind her hand that we take as a cue to retire for the night."
+
+"As Hisao and I rise to return to our dorm rooms, Lilly navigates her way around the table and approaches us."
+
+show lilly basic_smile_paj with charachange at twoleft
+
+li "Hanako, it seems unfair that the rest of the club got to have a celebration, and the person who helped them out of a difficult spot did not. Maybe you can see this little tea party as your own private celebration."
+
+ha "I-I think I'll do that."
+
+li "Hanako…"
+
+play music music_friendship fadein 2.0
+
+show lilly basic_planned_paj_close with charachange at twoleft
+
+"Suddenly, Lilly gets close to me and wraps her arms around me in a warm embrace. I let out a startled gasp."
+
+li "…I think you did a terrific job this week."
+#show hisao basic_smile_paj with charachange at tworight
+
+hi "Lilly's right. You really did."
+
+#show hisao basic_smile_paj_close with charachange at tworight
+
+"Without warning, Hisao also hugs me. For a second, this weird three-way hug takes me off-guard. Then I return the embrace, wrapping one arm around each of them and gently pulling them closer. It really feels nice. It feels like the way things felt in Hokkaido while we were staying there."
+
+"A small disabled family."
+
+"My family."
+
+"I suddenly feel a lump in my throat. I want to laugh and cry at the same time. Are Lilly and Hisao feeling the way I'm feeling right now?"
+
+"I sniffle briefly."
+
+ha "L-Lilly…H-Hisao…"
+
+li "Yes, Hanako?"
+
+"I love you. I love you both so much. Please let me be here for you the way you're here for me."
+
+ha "…t-thank you."
+
+"We break the embrace and I quickly wipe my eye. As Lilly sees us off, she smiles at me."
+
+#hide hisao with charaexit
+
+show lilly basic_ara_paj with charachange
+
+li "Enjoy your date tomorrow."
+
+ha "Thanks. I'm sure we will. And um… Lilly… I… um… really enjoyed our time together this week. W-we should hold these tea ceremonies more often again."
+
+show lilly basic_sad_paj with charachange
+
+"For a split-second Lilly's expression seems sad, but before I can react the door closes, and the moment is gone."
+
+scene bg school_dormhallway onlayer master
+with wipeleft
+
+hi "Can I come in for a little while?"
+
+ha "S-sure."
+
+scene bg school_dormhanako onlayer master
+with wipeleft
+
+"We go in and he places his hands on my shoulders."
+
+#show hisao basic_smile with charaenter
+
+hi "I thought I felt it earlier. You're not nearly as tense as you were during the last few days."
+
+ha "Today I didn't have much stress, just the printing process and delivery of the papers - and then the tea ceremony with you and Lilly."
+
+hi "So I guess you won't be needing a shoulder massage today."
+
+ha "I-I'm not sure yet."
+
+"I doubt I need my shoulders or neck loosened up, but I don't want him to leave yet."
+
+"This week was tough."
+
+"But we're going on a date tomorrow, and I'm looking forward to it."
+
+"A fitting conclusion to a stressful week."
+
+"I kinda made another important step this week."
+
+"Maybe I've earned a little something extra."
+
+"Maybe we've both earned something."
+
+"Should I…?"
+
+ha "H-H-Hisao…?"
+
+hi "Yeah?"
+
+"I blush."
+
+ha "Ummm… T-that e-e-extensive m-massage you o-offered earlier t-this w-week…?"
+
+#show hisao basic_grin with charachange
+
+"He grins."
+
+hi "That offer is still valid, Hanako."
+
+ha "…s-share o-one t-together?"
+
+hi "I'd love to."
+
+"He removes his socks and shoes and sits on my bed. I open one of my drawers, take a few tissues to avoid us messing up my blanket too much and then turn off the lights."
+
+"I feel my way over to the bed, position myself in front of him and lean forward for a kiss."
+
+ha "R-ready, Hisao?"
+
+hi "I'm all yours, Hanako."
+
+call timeskip

@@ -1,6 +1,9 @@
 init python:
     tak = Character("Takawa", who_color="#50c878")
     yumi = Character("Miss Yumi", who_color="#50c878")
+    nao = Character("Naomi", who_color = "#736D60")
+    nat = Character("Natsume", who_color = "#D4C3A0")
+
     commentary = False
 
     style.say_dialogue.size = 20
