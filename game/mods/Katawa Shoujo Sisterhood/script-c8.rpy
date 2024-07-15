@@ -1,5 +1,5 @@
 label en_chapter8:
-#ease, dreamy
+
 
 play music music_ease fadein 2.0
 scene bg city_clubpool onlayer master 
@@ -341,5 +341,257 @@ ha "O-okay."
 
 call shorttimeskip
 
+hi "See anything you like?"
+
+ha "Hmmm…let's try that one."
+
+"We walk over to the machine, Hisao looks at the coin slot, then at me and gives a nod. I take a coin from my purse, toss it up, catch it and place it on my left hand."
+
+ha "T-t-tails."
+
+hi "That's your side. We should pick four credits for cooperative games and three for competitive."
+
+"I slip three coins into the slot, and we both press our respective start button."
+
+"I think I remember how some of the moves are meant to be done."
+
+"As the announcer calls the start of the fight, Hisao's character lets out a roar and flies at me immediately."
+
+"Ouch. He's not kidding around. Pulling the stick away makes you block attacks, right?"
+
+"He approaches me again, but this time I deliver a kick to push him back. Hisao is stronger and faster, but I've got better reach."
+
+"He moves in again and we trade several blows. I manage to grab him and throw him away from me. I think it was a quarter-circle motion with the joystick."
+
+"After two tries, I manage to shoot a projectile at him. He jumps over it, but I manage to nail him with a kick as he lands."
+
+"The game's announcer confirms my victory. The second round begins, and I manage to block another flying attack from Hisao."
+
+ha "Hisao?"
+
+"I'm getting the hang of the projectile motion and start shooting a stream of fireballs at Hisao in order to keep him at bay."
+
+hi "Yes?"
+
+"He gets a few hard blows in after jumping my projectiles, but I manage to regain the upper hand after a successful throw."
+
+ha "When we left Lilly's room yesterday, I noticed she looked sad for a moment."
+
+"I start shooting fireballs again, this time of varying speed in order to keep him on his toes and manage to wear him down enough to win the second round."
+
+hi "Are you sure?"
+
+ha "It was for a split-second. Before she closed the door."
+
+"We're back at the character select screen and Hisao picks another fighter to play with."
+
+hi "Why would she be sad?"
+
+ha "I'm not sure. All I said was that I'd like to have these kinds of tea parties more often."
+
+"The second match starts and I try the strategy I used to win the last battle, but this time Hisao shoots my projectiles out of the air with his own."
+
+hi "I wouldn't call that a particularly depressing statement."
+
+"The round ends with a timeout after a long fireball war that I lose after messing up the motion a few times."
+
+ha "I'm… a bit worried, Hisao. I wonder if Lilly is really giving us space to be on our own or if there's something that's bothering her."
+
+hi "Something that's bothering her?"
+
+"This time I try to be more aggressive and trip him up by sliding under his projectiles. It works a few times until Hisao starts throwing projectiles at my feet instead."
+
+ha "C-causing her to spend less time with us than before. She's often missed lunch in the tea room these days in favor of class representative duties, and until this week, we haven't really been to her room either."
+
+hi "Well, she has been scarcer than usual lately, but I'm not sure if that means something's on her mind and if so what it could be that bothers her."
+
+"I try to switch to jumping attacks, only to find out my character is much too slow for that tactic, and I end up losing the second round as well after being knocked out of the air several times."
+
+ha "Maybe…us?"
+
+hi "Us?"
+
+ha "I s-sometimes wonder if she… likes you too?"
+
+"I take a moment to pick my character for the final match and decide on a speedier fighter."
+
+hi "Lilly having feelings for me?"
+
+"She never admitted it, but the last time I asked her she ended up reversing the question instead of answering it."
+
+"The first round is quickly devolves into a slugfest with me taking some time to get used to fight without projectiles and Hisao taking some time to learn how to deal with a faster opponent. The round ends with us taking a simultaneous blow that depletes the last of my energy."
+
+ha "If t-that were true… being with you and me would be p-painful for her, right?"
+
+"The second round ends more favorably for me as I start figuring out a pattern in the altitude of Hisao's projectiles and am able to evade them with slidings and quick jumps long enough to whittle down his health."
+
+hi "I'm not sure if that's the case. If Lilly was interested in me, she'd probably have flirted with me or something. I don't think she'd stay completely passive."
+
+"No, that's more like my strong suit."
+
+ha "U-unless she held back f-for my sake."
+
+"The final round once again devolves into us trading blows with me trying to capitalize on my longer reach as much as possible. For a while the outcome appears to mirror the result of the first round until I manage to barely escape his attack with a quick jump off the wall and slam Hisao into the floor after landing behind him."
+
+hi "I don't think we should jump to conclusions, Hanako. When she came back from her trip, she seemed genuinely happy for us. Let's just ask her on Monday. Until then, try not to think about it, okay?"
+
+ha "O-okay."
+
+"I really hope I'm wrong. If something is on Lilly's mind, I want to help her get through it, but if it's my relationship with Hisao that's bothering her, I really don't know what I could say to her to cheer her up."
+
+"I'm not really interested in taking on the single player mode, so after Hisao's timer runs out we simply leave my fighter to be beaten into submission by the CPU opponent."
+
+hi "That was pretty fun. Where to now?"
+
+ha "Hmmm…"
+
+call shorttimeskip
+
+"We spend the next hours, among other things, beating up cyborg soldiers with ninja weapons, navigating monster-filled dungeons in search for food and treasure, popping balloons with harpoon guns, popping bubbles with monsters inside and watching the attract mode of every cabinet in the area."
+
+"As we leave the retro corner, Hisao points to a big cabinet with two motorbike-shaped seats in front of it."
+
+hi "Want to take part in a little race, Hanako?"
+
+ha "Sure."
+
+call shorttimeskip
+
+hi "That was close."
+
+"I let out a slightly frustrated sigh. It sure was. Hisao and I crossed the finish line with only a 0.3 second difference on the clock. I'm pretty sure I can do better next race. But as I prepare to push the start button in the center of the handlebar, Hisao stops me."
+
+hi "Hey Hanako, why don't we try the single player race? Might be fun too."
+
+"How are \'we\' supposed to participate in the single player mode? You can only take part in the race with one bike."
+
+ha "Ummm…how?"
+
+"Hisao taps the back of his motorbike with his fingers."
+
+hi "Hop on board before your countdown's finished."
+
+ha "I-is that okay? Those s-seats aren't made for two people, are they?"
+
+hi "We'll be fine. Those seats can handle some weight. I mean, have you seen the size of some of the regular visitors here?"
+
+"I chuckle."
+
+ha "O-okay then."
+
+"I quickly move over to the seat Hisao is sitting on and sit down behind him. It's still a tight fit because the seats have a depression in the middle for the player to sit and it's not quite made for two pairs of hips." 
+
+"I don't think either of us are sitting in a particularly stable or comfortable position. As Hisao's screen lights up to reveal the starting line and seven other bike riders in front of us, I wrap my arms around him tightly."
+
+"A few minutes later we cross the finish line dead last. Steering turns out to be extremely tricky since it's impossible for us to lean left or right in precise tandem, meaning most of the turns we make are too late and too wide."
+
+"I giggle."
+
+ha "I don't think this is going to get us very far."
+
+hi "True, but wasn't it fun?"
+
+"It was. Throughout all the bumbling, colliding and zigzagging on straight parts, due to repeatedly overcompensating for each other's movements, I had to make several supreme efforts to hold back my laughter."
+
+hi "We have one credit left. Want to switch places and try it again?"
+
+ha "Sure."
+
+"I get off the seat, move in front of him and try to get comfortable. As I press the start button and Hisao hugs me from behind, a thought springs up in my mind."
+
+ha "Ummm…Hisao? W-was this whole thing j-just an excuse to hug in public?"
+
+"He laughs at my observation."
+
+hi "No, just an extremely welcome addition."
+
+"The second race goes slightly better, and we end up being sixth. This is more due to us getting better at predicting each other's movements than it is about steering skills."
+
+"It's still not enough to get us to the next race, but I don't think we should keep putting coins into this thing until we're good enough to get in first."
+
+hi "So, what do you want to do next?"
+
+scene bg city_restaurant
+with Dissolve(2.0)
+
+play music music_dreamy fadein 2.0
+
+"The peaceful corner of the coffee shop where we decided to take a breather after leaving the arcade is a refreshing change from the bustling of the crowded arcade hall. While my difficulty with crowds hasn't raised its head enough to ruin my fun this evening, it still feels good to relax in a quiet place for a while."
+
+#show hisao basic_smile with charaenter
+
+hi "Sorry it took so long."
+
+"Hisao returns from the counter holding a bottle of soda and a cup of hot cocoa. He sits down next to me, puts the soda in front of himself and shows me a frustrated frown for a moment before giving me the cocoa."
+
+"The couple in front of me took ages to make up their mind about their order. I was about to give up and take you somewhere else."
+
+ha "It's okay. I had someone to keep me company."
+
+"We both look at the plush puppy we liberated from the crane game near the arcade's entrance through our combined efforts."
+
+hi "We could have obtained several other stuffed toys for the number of efforts it took us to get this specific one."
+
+ha "He's special. I'm sure he'll feel at home at Yamaku."
+
+"What's 'special' about the dog in question is actually the fact that his left eye is missing. It probably got damaged at some point. When I noticed that, I made a special effort to obtain him despite the fact he was lying pretty far away from the crane's starting point."
+
+hi "A new member of our little, disabled family, huh?"
+
+"I nod."
+
+ha "I'm still deciding whether to let him live in my room or let Lilly take care of him."
+
+hi "Maybe you should leave him with Lilly, so he and I don't end up becoming rivals for your affection."
+
+"I giggle at this weird idea."
+
+ha "I think I have more than enough affection for both of you."
+
+hi "So, have you already decided on a name for him?"
+
+ha "Hmmmm…I think I'll call him 'Niji'."
+
+#show hisao basic_curious with charachange
+
+hi "Niji?"
+
+ha "At the orphanage… they had a dog that some of the children there took care of. 'Niji' is what they called him."
+
+hi "Were you one of those children?"
+
+"I shake my head."
+
+hi "You don't like animals? I've once heard that a lot of people who… well… are not good with other people tend to form strong bonds with their pets."
+
+ha "I… do like them. At least, I think I do. It's just… Everyone who wanted to take care of him was also tasked with walking the dog every few days. And that dog… really liked being outside and running in the park and playing with other dogs."
+
+ha "But I… d-didn't really like going outside. And w-walking your dog tends to make other people approach you for s-small talk, so… ummm… I thought he w-was in better hands with… other children."
+
+hi "That's a shame, Hanako. That dog missed out on a great friend. And so did you, most likely. Maybe you could reconsider it once you have a place of your own in the future."
+
+ha "That's probably still far off, but… thank you, Hisao."
+
+#show hisao basic_smile with charachange
+
+hi "Hey Hanako, are you enjoying our date so far?"
+
+ha "Y-yes, I am. I… wouldn't mind going back to the game center some time. There were still many games we didn't get to play yet."
+
+hi "Great. Good. I'm happy to hear that. I wouldn't mind going back there myself either."
+
+"Why is he getting nervous? And what does he mean by 'so far'? Won't we going back to Yamaku yet?"
+
+ha "H-Hisao… Did you have more planned? Does it have to do with that backpack you've been carrying around all the time?"
+
+hi "The backpack contains, among a few other things, my medication."
+
+"His medication? Why would he take that along? Wait a second…"
+
+ha "H-Hisao, d-d-do you mean…?"
+
+"He takes a deep breath, realizing it's probably too late to dismiss the issue and then looks me in the eyes."
+
+hi "H-Hanako, would you like it if we… spent the night together somewhere around here?"
 
 #call en_chapter9
