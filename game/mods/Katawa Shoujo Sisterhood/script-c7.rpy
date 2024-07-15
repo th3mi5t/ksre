@@ -778,3 +778,5 @@ ha "R-ready, Hisao?"
 hi "I'm all yours, Hanako."
 
 call timeskip
+
+call en_chapter8

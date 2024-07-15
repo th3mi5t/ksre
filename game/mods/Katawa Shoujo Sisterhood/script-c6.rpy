@@ -917,4 +917,4 @@ hi "Me too, Hanako. And I don't mind the slow pace. Gotta watch the old ticker, 
 
 call timeskip
 
-#call en_chapter7
+call en_chapter7
