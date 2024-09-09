@@ -7,7 +7,7 @@ play music music_nurse fadein 2.0
 
 "After listening for a moment, the nurse puts away his stethoscope and gives a satisfied nod to indicate I can put my shirt back on."
 
-show nurse neutral onlayer master at center
+show nurse neutral onlayer master at center with charaenter
 
 nk "You sound good to me. No chest pains or dizziness this morning?"
 

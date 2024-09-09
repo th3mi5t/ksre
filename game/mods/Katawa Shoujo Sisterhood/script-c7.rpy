@@ -79,8 +79,10 @@ nat "Japanese is one of your stronger subjects, is it not?"
 
 "I responded with another meek nod. It's true, Japanese is probably my best subject. It was one of the benefits of being a bookworm. The fact that I was fairly confident I'd be able to pull my weight on this assignment was one of the things that made the whole thing slightly easier."
 
-#show naomi basic_grin at twoleft with charachange 
-#show natsume basic_smile at tworight with charaenter 
+#show naomi basic_grin 
+#at twoleft with charachange 
+#show natsume basic_smile 
+#at tworight with charaenter 
 
 nat "Great, then we'll finish this all the sooner."
 
@@ -101,7 +103,8 @@ nat "Great, then we'll finish this all the sooner."
 scene bg school_scienceroom onlayer master
 with shorttimeskip
 
-#show naomi basic_shock with charaenter at twoleft
+#show naomi basic_shock with charaenter 
+#at twoleft
 #show natsume basic_neutral with charaenter at tworight
 
 nao "Well, CRAP!"
@@ -608,8 +611,7 @@ ha "I didn't know my girlfriend had this nerdy side to her."
 
 "Before I can think up a reaction of my own, Lilly is already eagerly pouncing on his remark."
 
-show lilly basic_giggle_paj with charaenter at twoleft
-
+show lilly basic_giggle_paj at twoleft with charaenter
 li "Wouldn't that make her a perfect match for the current president of the science club, Hisao?"
 
 #show hisao basic_neutral_paj with charaenter at tworight
@@ -620,7 +622,7 @@ hi "I'm not going to argue that point."
 
 li "A wise decision, Hisao."
 
-show lilly basic_smile_paj with charachange at twoleft
+show lilly basic_smile_paj at twoleft with charachange 
 
 #show hisao basic_smile_paj with charachange at tworight
 
@@ -638,7 +640,7 @@ hi "Sounds like a great plan. Where were they this afternoon anyway? The club's 
 
 ha "After a new issue is printed and handed over to the student council for distribution, the club always goes into town to relax and celebrate the release in one of the coffee shops there."
 
-show lilly basic_concerned_paj with charachange at twoleft
+show lilly basic_concerned_paj at twoleft with charachange
 
 #show hisao basic_neutral_paj with charachange at tworight
 
@@ -660,7 +662,7 @@ ha "M-maybe."
 
 "As Hisao and I rise to return to our dorm rooms, Lilly navigates her way around the table and approaches us."
 
-show lilly basic_smile_paj with charachange at twoleft
+show lilly basic_smile_paj at twoleft with charachange 
 
 li "Hanako, it seems unfair that the rest of the club got to have a celebration, and the person who helped them out of a difficult spot did not. Maybe you can see this little tea party as your own private celebration."
 
@@ -670,7 +672,7 @@ li "Hanako…"
 
 play music music_friendship fadein 2.0
 
-show lilly basic_planned_paj_close with charachange at twoleft
+show lilly basic_planned_paj_close at twoleft with charachange 
 
 "Suddenly, Lilly gets close to me and wraps her arms around me in a warm embrace. I let out a startled gasp."
 
