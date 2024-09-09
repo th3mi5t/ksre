@@ -92,7 +92,9 @@ nat "Great, then we'll finish this all the sooner."
 
 "Natsume and Naomi remind me a bit of less extreme versions of Shizune and Misha. Natsume wears glasses and has a stern appearance, but isn't as bossy or forceful as Shizune."
 
-"The most striking part of Naomi's appearance is her hair which, while not dyed like Misha's, is bleached to a distinct light blonde color. Her personality is a bit like Misha's as well - up-beat, loud and a bit hyper, though Naomi's volume control button doesn't seem to be permanently stuck on the max setting. Also, like Shizune and Misha, the two seem together constantly."
+"The most striking part of Naomi's appearance is her hair which, while not dyed like Misha's, is bleached to a distinct light blonde color."
+
+"Her personality is a bit like Misha's as well - up-beat, loud and a bit hyper, though Naomi's volume control button doesn't seem to be permanently stuck on the max setting. Also, like Shizune and Misha, the two seem together constantly."
 
 "We finished the assignment with a good amount of time to spare and my group mates had started on a piece of homework I already finished the other day."
 
@@ -137,7 +139,9 @@ ha "I t-t-typed it up."
 
 nao "Huh?"
 
-"I sigh inwardly. I don't think I'd be able to finish a verbal explanation without it taking another hour, so I reach into my bag and just show her the answer sheet I put together the day before, neatly typed out on one of the school's computers. I used the word processor's graph features to generate the pie chart."
+"I sigh inwardly. I don't think I'd be able to finish a verbal explanation without it taking another hour, so I reach into my bag and just show her the answer sheet I put together the day before, neatly typed out on one of the school's computers."
+
+"I used the word processor's graph features to generate the pie chart."
 
 nao "Oh hey, that first answer is totally different from what I had. I wonder if I missed something or if you were simply over thinking the… Eh, never mind."
 
@@ -153,7 +157,9 @@ ha "S-s-sometimes, b-but not v-very often."
 
 #show naomi basic_smile with charachange at twoleft
 
-"Naomi seems satisfied with my answer, and I return to my book. As I turn another page, I'm starting to notice something is different. Naomi and Natsume are no longer working on their homework, but are speaking to each other in whispers too quiet for me to make out, and they occasionally look in my direction."
+"Naomi seems satisfied with my answer, and I return to my book. As I turn another page, I'm starting to notice something is different."
+
+"Naomi and Natsume are no longer working on their homework, but are speaking to each other in whispers too quiet for me to make out, and they occasionally look in my direction."
 
 "I wonder if it's about me. I get very uncomfortable. Are they gossiping about me? Both are members of the newspaper club which is responsible for writing and printing the school newspaper, and Naomi in particular loves to keep on top of the local rumors floating around."
 
@@ -272,7 +278,7 @@ with shorttimeskip
 
 play music music_lilly fadein 2.0
 
-
+show lilly basic_smile with charaenter 
 
 li "Were you really asked to join a club?"
 
@@ -307,7 +313,9 @@ hi "You could choose to see it as a sign that fate is extending you a helping ha
 
 "By breaking somebody else's? That's kind of a cruel way to motivate someone. Fate must know how easily I can be guilt tripped."
 
-"I merely nod. I don't believe the work itself will give me much trouble. What scares me is the idea of being thrown into a group of unfamiliar people who might stare at my scars, who might be put off by my stammering (which always gets worse whenever I'm feeling nervous), my shyness and inability to make conversation."
+"I merely nod. I don't believe the work itself will give me much trouble."
+
+"What scares me is the idea of being thrown into a group of unfamiliar people who might stare at my scars, who might be put off by my stammering (which always gets worse whenever I'm feeling nervous), my shyness and inability to make conversation."
 
 "A few weeks ago, I was still the 'shy kid who kissed her first boyfriend in public' to people, but tomorrow I might be the 'shy kid who panics at the most mundane things' once again."
 
@@ -374,7 +382,9 @@ ha "I-I'll s-start p-putting these in then."
 
 nao "Cool. I'd do this myself, but I can't sit in front of monitors for very long for a while. Nurse's latest orders. I can be a bit sensitive to them. They sometimes cause, you know, short-circuiting."
 
-"I know alright. Naomi's reason for attending Yamaku is a pretty heavy case of epilepsy, and over the years, she's had several harsh episodes right next to me in class. The first time she fell out of her chair and started thrashing around on the floor got me so riled up I couldn't sleep for days. I'm still not completely used to it."
+"I know alright. Naomi's reason for attending Yamaku is a pretty heavy case of epilepsy, and over the years, she's had several harsh episodes right next to me in class."
+
+"The first time she fell out of her chair and started thrashing around on the floor got me so riled up I couldn't sleep for days. I'm still not completely used to it."
 
 nao "Anyway, be sure to let the computer do a spelling and grammar check on everything to save ourselves some trouble later. You have any questions, Natsume and I'll be in the other room."
 
@@ -515,7 +525,7 @@ ha "Umm… P-please?"
 hi "Alright then, Hanako."
 
 scene bg school_room32 onlayer master
-with Dissolve (2.0)
+with shorttimeskip
 
 play music music_comedy fadein 2.0
 
@@ -553,7 +563,7 @@ nao "Each article has a number. So now we take a few empty sheets of paper and e
 
 ha "T-two layout proposals?"
 
-bai "It's nice to have a second opinion. Just try to estimate how much space each article will take up and how much redundant content each article has that can be cut or shortened."
+nao "It's nice to have a second opinion. Just try to estimate how much space each article will take up and how much redundant content each article has that can be cut or shortened."
 
 #hide naomi with charaexit
 
@@ -573,7 +583,7 @@ ha "Y-yes."
 "I quickly get to work. We have one and a half day to get everything done. I'll have time to relax this evening, but until then, I feel pressed to work as swiftly as possible."
 
 scene bg school_dormlilly onlayer master
-with Dissolve(2.0)
+with shortimeskip
 
 play music music_dreamy fadein 2.0
 
@@ -601,7 +611,9 @@ hi "Hey Hanako, is it difficult to create a newspaper in Braille?"
 
 "I nod my head."
 
-ha "The newspaper club has software that can convert normal documents into a file type that a Braille printer can work with. I've used it myself yesterday. It's a lot of work, but there's a member at the club who can read Braille and helps us with this. I just operate the s-software according to his instructions."
+ha "The newspaper club has software that can convert normal documents into a file type that a Braille printer can work with. I've used it myself yesterday." 
+
+"It's a lot of work, but there's a member at the club who can read Braille and helps us with this. I just operate the s-software according to his instructions."
 
 #show hisao basic_laugh_paj with charaenter
 
@@ -652,7 +664,9 @@ ha "They did. It's just… If I went along, I don't think I'd be able to relax e
 
 "That was pretty much the gist of it. This week, I've been forced to communicate with the club members in order to get things done, and I found that as long as the conversation remained strictly about the tasks at hand, I could manage with a bit of effort." 
 
-"But in the face of any small talk, I'd quickly freeze up. I didn't think I'd add much to the social event the club was planning, and it'd be better if I didn't go and attend. I can be on my own just fine, but being at a celebration and being the only one not having fun never fails to make me feel terribly lonely. I felt pretty good about the release and didn't want to do anything that might ruin my mood."
+"But in the face of any small talk, I'd quickly freeze up. I didn't think I'd add much to the social event the club was planning, and it'd be better if I didn't go and attend."
+
+"I can be on my own just fine, but being at a celebration and being the only one not having fun never fails to make me feel terribly lonely. I felt pretty good about the release and didn't want to do anything that might ruin my mood."
 
 li "Maybe if you spend enough time there, they'll grow on you."
 

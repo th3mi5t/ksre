@@ -66,11 +66,11 @@ hi "They have a retro section here as well. We could check it out later. We migh
 
 ha "Sure."
 
-"Suddenly explosive charges are being tossed at us from inside the truck. A big blast and our life meters drop down by 20%."
+"Suddenly explosive charges are being tossed at us from inside the truck. A big blast and our life meters drop down by 20\%."
 
 hi "Hey, how the heck are we supposed to deal with that?"
 
-"We both try shooting the vehicle, but nothing happens. Another charge is tossed and now our life meters are at 60%."
+"We both try shooting the vehicle, but nothing happens. Another charge is tossed and now our life meters are at 60\%."
 
 ha "T-the tires perhaps?"
 
@@ -88,7 +88,7 @@ ha "They're always coming from the same point."
 
 hi "Oh come on!"
 
-"We miss the next two charges and now we're at 20%. Hisao gets the next one and the back of the truck ignites."
+"We miss the next two charges and now we're at 20\%. Hisao gets the next one and the back of the truck ignites."
 
 ha "D-did we do it?"
 
@@ -339,7 +339,9 @@ ha "O-okay."
 
 "We decide on sides and then head over to the retro section Hisao brought up earlier."
 
-call shorttimeskip
+scene bg city_clubpool onlayer master 
+#placeholder scene for arcade cg2
+with shortimeskip
 
 hi "See anything you like?"
 
@@ -431,7 +433,9 @@ hi "I'm not sure if that's the case. If Lilly was interested in me, she'd probab
 
 ha "U-unless she held back f-for my sake."
 
-"The final round once again devolves into us trading blows with me trying to capitalize on my longer reach as much as possible. For a while the outcome appears to mirror the result of the first round until I manage to barely escape his attack with a quick jump off the wall and slam Hisao into the floor after landing behind him."
+"The final round once again devolves into us trading blows with me trying to capitalize on my longer reach as much as possible."
+
+"For a while the outcome appears to mirror the result of the first round until I manage to barely escape his attack with a quick jump off the wall and slam Hisao into the floor after landing behind him."
 
 hi "I don't think we should jump to conclusions, Hanako. When she came back from her trip, she seemed genuinely happy for us. Let's just ask her on Monday. Until then, try not to think about it, okay?"
 
@@ -445,7 +449,9 @@ hi "That was pretty fun. Where to now?"
 
 ha "Hmmm…"
 
-call shorttimeskip
+scene bg city_clubpool onlayer master 
+#placeholder scene for arcade cg
+with shorttimeskip
 
 "We spend the next hours, among other things, beating up cyborg soldiers with ninja weapons, navigating monster-filled dungeons in search for food and treasure, popping balloons with harpoon guns, popping bubbles with monsters inside and watching the attract mode of every cabinet in the area."
 
@@ -455,7 +461,9 @@ hi "Want to take part in a little race, Hanako?"
 
 ha "Sure."
 
-call shorttimeskip
+scene bg city_clubpool onlayer master 
+#placeholder scene for arcade cg
+with shorttimeskip
 
 hi "That was close."
 
@@ -516,7 +524,9 @@ with Dissolve(2.0)
 
 play music music_dreamy fadein 2.0
 
-"The peaceful corner of the coffee shop where we decided to take a breather after leaving the arcade is a refreshing change from the bustling of the crowded arcade hall. While my difficulty with crowds hasn't raised its head enough to ruin my fun this evening, it still feels good to relax in a quiet place for a while."
+"The peaceful corner of the coffee shop where we decided to take a breather after leaving the arcade is a refreshing change from the bustling of the crowded arcade hall."
+
+"While my difficulty with crowds hasn't raised its head enough to ruin my fun this evening, it still feels good to relax in a quiet place for a while."
 
 #show hisao basic_smile with charaenter
 
@@ -594,4 +604,6 @@ ha "H-Hisao, d-d-do you mean…?"
 
 hi "H-Hanako, would you like it if we… spent the night together somewhere around here?"
 
-#call en_chapter9
+call timeskip
+
+call en_chapter9
