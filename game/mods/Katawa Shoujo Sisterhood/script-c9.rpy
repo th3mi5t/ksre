@@ -1,597 +1,687 @@
 label en_chapter9:
 
+#29,44,21
+#to become one, romance in adante 2, timeskip
+#play music music_one fadein 2.0
+#play music music_romance fadein 2.0
 
-play music music_ease fadein 2.0
-scene bg city_clubpool onlayer master 
-#placeholder scene for arcade cg
+stop music
+scene bg hok_bath onlayer master 
 with Dissolve(2.0)
 
-hi "The right one, focus on the right one!"
+"As I step out of the bath, I can't help but thinking that this is like one of those romance novels where a guy and a girl go out, have dinner and a date and then spend the night at a hotel consummating the relationship."
 
-ha "Y-yes!"
+"After taking a break at a coffee shop near the game center we visited, I expected us to return to Yamaku. Then Hisao proposed spending the night at a hotel nearby. And that's exactly what we ended up doing."
 
-"I aim my gun and a moment later the cyborg who just ambushed us from the nearby niche goes down in a hail of sparks."
+"We ended up splitting the costs (Hisao didn't object this time) and got a nice room on the eighth floor with a soft carpet, a double bed and a clean bathroom."
 
-"In the meantime, Hisao is struggling to hit another cyborg shooting at us from a vehicle straight ahead, but he has difficulty getting a clear shot due to several allied soldiers running ahead of us and blocking the line of fire."
+"Hisao took a rather quick bath, but told me I could take my time, and I was happy to take some time in order to get myself cleaned up."
 
-hi "Cover me, Corporal Ikezawa!"
+"As fun as the game center has been, the smell there wasn't exactly heavenly, and I felt like the odor of perspiration rubbed off on me. Well, maybe some of it is my own."
 
-"I giggle, more than eager to play along."
+"The cabinet in the bathroom contained a few small flasks of fragrant shampoo that I gratefully made use of."
 
-ha "A-affirmative, Sergeant Nakai."
+"..."
 
-"We take aim at the main attacker and unleash a torrent of bullets onto his head and chest."
+"Consummating the relationship."
 
-"\"Mission cleared!\""
+"Hisao never said anything specific, but I'm not so naïve as to believe we're merely here to sleep in a bigger bed."
 
-"At the mechanical announcement, we both drop the gun-shaped controllers we've been holding while the next mission starts loading up."
+"Nor do I think we got ourselves a room far from the noisy dorm rooms in order to just give each other a 'helping hand' in the dark, like we've done a few times before now."
 
-#show hisao basic_normal with charaenter
+"If we go all the way tonight and I can manage to enjoy it, we'll be closer than before. If not, we'll probably spend the next few days apologizing to each other."
+
+"I put on the soft bathrobe that Hisao left here for my perusal. It feels very nice to the touch."
+
+"Where are all the other towels? I saw Hisao carrying some of them. What exactly is he planning?"
+
+"I walk over to the place where our clothes are piled up and fish my hair clip out of the pockets of my pants. I apply the clip, say a little prayer for good luck and leave the bathroom."
+
+call chapter9_hscene
+
+label chapter9_hscene:
+play music music_one fadein 2.0
+scene bg hok_lounge onlayer master
+with locationchange
+
+"The first thing I notice is that the room isn't quite like I expected it to be. I thought it'd either be completely dark or the lights near the bed being lit, but neither is the case."
+
+"None of the lights are on, yet I can still make out the interior somewhat, particularly near the window, due to the curtains still being drawn back. I also notice the room's pretty warm. Did he turn the radiator up?"
+
+"The second thing that stands out is the fact that nobody is sitting or lying on the bed. Hisao, who's wearing a bathrobe similar to mine, is sitting on the floor near the window, in the spot illuminated by the moonlight and lights from the city."
+
+"Does he want to do it on the floor? Isn't that uncomfortable?"
+
+#show hisao basic_normal_robe with chareaenter
+ha "Hisao?"
+
+"Hisao looks in my direction and beckons. As I approach him, I notice he's spread one of the blankets on the floor and put the towels he took from the bathroom on top of it, creating what almost looks like a make-shift picnic blanket."
+
+ha "A… A moonlight picnic?"
+
+hi "It kinda resembles it, doesn't it?"
+
+"A little bit, though it'd be a pretty shoddy picnic. No glasses, no napkins, just a bottle of… What's in there anyway? And what's in that large flat bowl nearby?"
+
+"I walk over to Hisao and sit next to him, still trying to make sense of things."
+
+ha "What do you have there? Where did that bowl come from? And what's in the bottle?"
+
+#show hisao basic_grin_robe with charachange
+
+"He gives me a sheepish grin."
+
+"The stuff from the bottle needed to be mixed with some hot water, so I got this bowl. It's actually a fruit bowl. As for the bottle…"
+
+"Are we going to be intimate or practice science together?"
+
+hi "…in a way, you could call it lubricant and in a way…"
+
+"LUBRICANT? Does he plan to skip foreplay? Or is he planning something else…?"
+
+"My expression must have given me away as Hisao puts his hand on my shoulder as if to reassure me."
+
+#show hisao basic_smile_robe with charachange
+
+hi "Relax, we're not going to do anything weird."
+
+"Are you sure about that?"
+
+ha "S-sorry."
+
+hi "Anyway… You enjoyed the shoulder rubs and massages we've shared, didn't you?"
+
+ha "Y-yes, I did."
+
+hi "I was thinking we could do a more… intimate… massage. That stuff in the bottle is a special type of massage gel."
+
+ha "D-didn't you just say it was lubricant?"
+
+hi "It's both actually. Its main purpose is to act as a massage lotion, but since it's so smooth and slippery, it can double as a lubricant."
+
+"I try to digest what Hisao's saying. He has put more thought into this whole thing than I expected. A massage… So we'll be rubbing that stuff on each other? That explains why we're sitting on the floor and why he has covered the area with towels."
+
+ha "Where did you get this?"
+
+hi "A little shop in the city last weekend. I was actually going for some ordinary massage lotion, but the guy behind the counter said this was the ultimate experience for a couple. I didn't tell him we were fairly new at this though."
+
+"Couple. I really like the sound of that word."
+
+hi "I tried to get some more information about this kind of thing, but… heh… Most sites that came up wouldn't make it through the computer lab's content filter."
+
+"That's not exactly reassuring."
+
+ha "So…ummm…H-how does this w-work?"
+
+hi "Do you want to try it?"
+
+ha "Y-you went through a lot of effort to arrange all this."
+
+hi "We can stop at any time you want."
+
+"I meekly nod. Hisao pulls me closer in a gentle hug and carefully puts his lips on mine."
+
+hi "We can start with this."
+
+ha "O-okay."
+
+"As his right hand starts stroking my head and his tongue starts playing around with mine, I close my eyes and try to push my insecurities to the back of my mind."
+
+"I'm not completely sure how well I'll be able to relax in the spot we're in. The curtains are drawn back, but we're on the eight floor."
+
+"People couldn't possibly peek inside from the other buildings and even if they were watching, the room itself is dark, so all they'd see was the reflection of the lights on the window, right?"
+
+"This is the first time since that one night in my room we'll be able to see each other pretty clearly. Obviously if the room were pitch black, we'd end up toppling the bowl with lotion sooner or later."
+
+"Parting his lips from mine, Hisao breaks his hug, gives me a quick kiss on my left cheek and holds out the bowl to me."
+
+hi "Do you want to sample a bit, Hanako?"
+
+"I dip my finger into the bowl in an attempt to get an impression of Hisao's concoction. The substance is more a liquid than a gel, clear and not all that much thicker than water."
+
+"I stir the mixture a bit and don't meet much resistance. I hold my finger under my nose and sniff shortly, but don't smell anything. What surprises me most is its temperature."
+
+ha "It's…really warm."
+
+hi "Yeah, I mixed the gel from the bottle with hot water, and I've been covering the bowl until you came out of the bathroom. You don't think it's too hot, do you?"
+
+ha "N-no."
+
+hi "So…shall we?"
+
+ha "…w-what would you l-like me to do?"
+
+"Hisao puts the bowl away, moves off the blanket and points at a small bump beneath the towels."
+
+hi "I've put the small cushion from one of the chairs there for you to rest your head on. Could you undo the belt of your bathrobe and then lie down on your stomach?"
+
+"Nervously, I remove the belt of my bathrobe and lie down, putting my head on the pillow beneath the towels and laying my arms at my side."
+
+ha "Like this?"
+
+hi "Yes. Now just take a deep breath and relax."
+
+"I inhale deeply and then slowly exhale, trying to slow the nervous beating of my heart a bit. I feel my hips being pressed down as Hisao straddles me."
+
+"He takes the shoulders of my bathrobe, slowly pulls them aside and slides it down until just beneath my waist. His hands gently run through my hair before moving it to one side, exposing my back. He then slowly strokes my neck and shoulders."
+
+hi "I'm going to apply some gel. Don't get startled."
+
+"I hear a few soft splashes, and feel a trail of liquid running down my left side. I let out a soft gasp as something warm and wet hits my back and his hands start rubbing the wet substance on my neck, all the way up to my jaw line, before going down and proceeding on my shoulders."
+
+"The sensation is different from the shoulder rubs I'm accustomed to. His touch is a lot softer and more gentle than the usual kneading."
 
 ha "H-Hisao?"
 
-hi "Yeah?"
+hi "Yes?"
 
-ha "Have you played these kinds of games before?"
+ha "Is… Is it okay to… you know… rub that… stuff… in my burn scars?"
 
-hi "Before I had my heart attack, I sometimes visited game centers with friends. These rail shooters were among the kinds of things we used to play."
+hi "It shouldn't be harmful. The bottle says it's made out of seaweed leaves and is completely water-based. The shampoo you used to wash your hair earlier is probably more aggressive than this stuff."
 
-hi "The ones I played were much more primitive than this one though. Technology sure speeds along."
+ha "If you say so…"
+#show hisao basic_neutral_robe with charachange
 
-"\"Get ready!\""
+hi "Hanako, could you put your arms by your side so your palms are facing up?"
 
-"As another droning announcement indicates we're about the start the next level, we take up the gun units again and ready them."
+"I do as he says, and he takes my right arm gently in his hand, rubbing it in top to bottom. For the most part, I don't feel much of it, but I shudder a bit when he reaches my hand and starts caressing my palm with his fingers."
 
-#hide hisao
+hi "That's not unpleasant, is it?"
 
-hi "You know, I never suspected that the next time I'd be visiting a game center, it'd be as part of a date."
+"I bite my lip to keep myself from laughing when he rubs in and then strokes each of my fingers."
 
-"I smile. An arcade center isn't exactly a place the average teenager would take his girlfriend to, but I guess I'm not exactly the average girlfriend either. In a way, it was a pretty clever idea on Hisao's part."
+ha "I-it tickles a bit."
 
-"While there are quite a few people around, the hall itself is rather dark so my scarring isn't very noticeable, especially since I'm also wearing my hat. And while we're playing games, there's no need for small talk."
+"He moves to my left arm next, carefully working his way down. He chuckles when I let out a surprised gasp."
 
-ha "I…I really like it so far."
+#show hisao basic_smile_robe with charachange
 
-"This time we're on top of some vehicle chasing an enemy truck."
+hi "Do you like having your elbow stroked?"
 
-hi "Have you played many video games in the past, Hanako?"
+"Does he expect me to answer that?"
 
-"Several enemy troops appear on the roof of the truck and start shooting at us. We quickly return fire, each of us trying to focus on different enemies."
+"He ends his caresses with my left palm and fingers, obviously enjoying the reactions his touches get out of me."
 
-ha "N-not many. We had an old Super Famicom at the orphanage that was donated by one of the staff members whose son was given a more recent system for his birthday. It was pretty popular with the other kids, so I didn't get around to using it very often."
+hi "Can you place your arms in front of you now?"
 
-"We clear the roof of the truck. Now what?"
+ha "Okay."
 
-hi "They have a retro section here as well. We could check it out later. We might run into some familiar titles."
+"He moves back to my shoulders before spreading his hands to stroke my armpits…"
 
-ha "Sure."
+"I giggle. That really tickles."
 
-"Suddenly explosive charges are being tossed at us from inside the truck. A big blast and our life meters drop down by 20%."
+"…and my sides."
 
-hi "Hey, how the heck are we supposed to deal with that?"
+"I let out a content sigh to let him know how nice this feels."
 
-"We both try shooting the vehicle, but nothing happens. Another charge is tossed and now our life meters are at 60%."
+"As he spreads and rubs the gel all over my back, it leaves a warm and comfortable sensation behind. My entire upper body is now covered in lotion and Hisao's now firmer strokes slide across my skin without much resistance, even in the scarred areas."
 
-ha "T-the tires perhaps?"
+"Hisao seems content at just stroking my shoulders, neck and back for now. Is he waiting for a cue from me?"
 
-"Again, nothing. Another charge gets tossed, but as Hisao shoots at it, it explodes prematurely and the enemy truck shakes from the blast."
+ha "Hisao…Should I… turn around?"
 
-hi "We're supposed to shoot the charges before they reach us!"
+hi "Just a little while longer, Hanako. There's one spot left to go."
 
-"Another charge gets tossed. This time I intercept it and the truck shakes even more."
+"I feel him move back just a little bit and the next moment I feel my bathrobe being pulled down further, exposing my bottom. I swallow hard, but don't resist as he starts rubbing, stroking and fondling my buttocks."
 
-hi "Good shot, Hanako."
+"I don't exactly hate it. In fact, I kind of like it, but what makes me feel awkward is the fact I just KNOW he's staring. It makes me nervous. Not only is my right buttock pretty heavily scarred, but I also have rather small hips for my size."
 
-ha "They're always coming from the same point."
+hi "A-are you s-staring?"
 
-"Another charge is blown, but this time the truck starts moving from side to side."
+ha "Sorry. I can't exactly say it's a bad view."
 
-hi "Oh come on!"
+"Having finished applying the gel, Hisao raises his hips in order to allow me room to turn around, but before I can get up, he kneads my buttocks one last time and then gets off me."
 
-"We miss the next two charges and now we're at 20%. Hisao gets the next one and the back of the truck ignites."
+"I pull my bathrobe up a bit, turn around and lie back. Hisao straddles me again, holding a handful of gel in his cupped hands that's gently trickling upon my stomach."
 
-ha "D-did we do it?"
+hi "Ready?"
 
-"Then one more charge is thrown from the burning truck, the screen turns red and a big countdown appears."
+ha "Y-yes."
 
-hi "Blast!"
+"I can feel Hisao's hands spreading the warm gel across my neck and my collarbone before they move down to my breasts, stroking them gently, then more and more firmly."
 
-"I hastily reach for my purse and take out a coin, so we can continue. But as I bend down to slide it into the slot…"
+"My breathing gets heavier as his hands pet and fondle my breasts, running my erect nipples between his fingers in a way that certainly would have hurt if they hadn't been this slippery, but now feels really good."
 
-ha "Ouch!"
+"After covering my belly, he gets off me, gently takes my ankles and lays my feet onto his lap."
 
-hi "OW!!!"
+"I can't help but giggle again. The soles of my feet are so ticklish that I have to use all my willpower to prevent myself from accidentally kicking Hisao, but the way he lovingly fondles each separate toe feels wonderful."
 
-"Something hits me in the head, causing me to drop the coin. I quickly get down on my knees to retrieve it before it rolls under one of the cabinets. As I grab it and look behind me, two things draw my attention."
+"He carefully raises my legs, letting my ankles rest on his shoulders, and starts stroking my shins and the back of my knees, causing me to make a sound that's part giggle and part moan."
 
-"One is the arcade cabinet we were standing in front of with a big \"GAME OVER\" message on the screen."
+"As he slowly, teasingly, moves down to my thighs I cannot help but remember how I was depressed not too long ago because part of my body is numb to sensations."
 
-"The other is my boyfriend, also kneeling on the floor and looking at the screen, then looking at me. His one hand is holding a coin as well. His other hand is rubbing his forehead."
+"Hisao told me that evening that I still had plenty of sensitive spots left and this night I realize more than ever how right he was about that. Even in the last few minutes we've found several sweet spots I never knew I had."
 
-"As the ridiculousness of the situation sinks in, I press my hand to my mouth in order to stifle a burst of laugher that would surely attract the attention of the other people around us. Hisao merely chuckles while wearing a silly grin on his face."
+hi "Is it okay?"
 
-"We both did the exact same thing at the exact same time."
+"I respond with a reassuring nod and brush aside the parts of my bathrobe still covering my body. He takes another handful of gel, I close my eyes and moments later I can feel his hands moving from my thighs down to the place between them."
 
-#show hisao basic_neutral with charaenter
+"But instead of merely the rubbing he usually does, he starts stroking and massaging it with both hands. My breath catches due to the sensation."
 
-"Hisao lets out a resigned sigh."
+"This feels… different from the other times I've allowed him to stroke me down there. He notices my reaction and starts trying different strokes while keeping a close eye on my face. Long, swift ones…"
 
-hi "I don't know about you, but I don't feel like playing through those previous stages again. Let's go and do something else."
+hi "What way do you like best?"
 
-ha "O-okay."
+"Short, swift ones…"
 
-"I look at Hisao as he makes his way past the rows of arcade machines with me in tow. He's not wearing the usual sweater vest he usually has on when not wearing his school uniform. Instead, he's wearing a shirt I picked out for him during our shopping trip in Hokkaido."
+ha "Hhhh-"
 
-"I kinda like the way it looks on him, though I suspect he's also wearing it to stand out less in our current environment. As we reach a quieter area, Hisao suddenly stops. This corner of the hall contains several air hockey tables."
+"Too much direct stimulation."
 
-hi "Wanna play a little match, Hanako?"
+"Slow firm ones…."
 
-ha "Sure."
+"B-better already."
 
-"I walk over to the table closest to the corner and insert a coin. The table hums to life, the display on the rail around the playing field lights up to reveal two zeros, and a cool breeze starts to blow on the table's surface."
+"Swift circular ones…"
 
-"I look around to confirm no other people are in the immediate vicinity and use my hair clip to move my hair lock out of the way just enough to prevent it from creating a blind spot in my peripheral vision. I pick up a mallet, take the puck from the tray beneath my goal and place it on the table."
+ha "S-slower…"
 
-ha "Ready, Hisao?"
+"Slow circular ones…"
 
-hi "Bring it on."
+ha "Nnnngg…"
 
-"I launch the puck towards him. He hits it towards the right railing. I deflect the puck with more luck than skill. Then he sends the puck straight ahead before I can react."
+hi "Seems like you like this one in particular."
 
-"{i}TSCHAK{/i}"
+"I nod my head, too embarrassed to admit it with words."
 
-"1:0"
+hi "Do you want me to keep going?"
 
-"I fish the puck out of my tray and place it in front of my mallet again."
+ha "S-stop for a moment…"
 
-hi "Hey Hanako, it wasn't necessary for you to pay up back there."
+"I take a second to catch my breath. This has felt wonderful, but I feel a bit bad that right now I'm the only one having a good time. Usually, I try to do the final part together with him, his arousal often acting as a catalyst for my own."
 
-"I bat the puck across the field. It ricochets off his mallet and goes straight towards me again. I aim for the left rail and hit the puck towards it."
+ha "Can I r-rub you in first?"
 
-ha "But you were the one who paid for the first credit."
+"He nods and lets go of me, letting me move aside before taking up the spot I was occupying before. He loosens his belt and lies down on his stomach in front of me."
 
-"{i}tic - TSCHAK{/i}"
+"For a moment I consider putting my bathrobe back on but then decide that doing so would feel really uncomfortable with my entire body covered in lotion."
 
-"1:1"
+"The room temperature itself is high enough for me to comfortably continue without my bathrobe, though I'm a bit squeamish about the part where he'll be able to see me rubbing him in."
 
-hi "I offered to foot the bill for this entire visit, didn't I?"
+"Did he decide to let me go first so he could be massaged by a naked girl?"
 
-ha "Y-you really don't have to."
+"Pushing these thoughts aside, I straddle him, pull his bathrobe down to his waist and use my cupped hands to gather some gel which I drop on his back with a soft splash."
 
-"I launch the puck towards him again, but this time he tilts his mallet causing the puck to get stuck under it."
+"Then I realize I'm not really sure on how to proceed. Hisao probably secretly read up on this stuff beforehand. Maybe I should just to try and copy him as closely as I can."
 
-"Isn't that officially a foul?"
+"Hmmm… The neck and shoulders first, right?"
 
-hi "You'd rather I didn't or you really don't want me to?"
+"Then the arms."
+
+hi "H-hey!"
+
+"I giggle at this surprisingly cute reaction and make a mental note that he likes having his upper arms fondled. I have to keep that in mind."
+
+"The back next."
+
+hi "That feels really nice, Hanako."
+
+"He actually has a pretty nice back."
+
+"I move to pull down his bathrobe, then change my mind and carefully take it off altogether and start kneading his buttocks."
+
+hi "You're not staring, are you?"
+
+ha "I-I'm not."
+
+"I am, of course."
+
+"I swallow nervously as I finish with his butt and raise my hips so he can turn around. This is going to be the most awkward part. As he turns around and I gently sit down on top of him, I notice he's staring."
+
+"Not a quick, sneaky peek, but a thorough almost analyzing look. Uncomfortably, I cross my arms in front of my breasts, even though he's not looking at them specifically."
+
+ha "P-please don't stare at me like that."
+
+hi "You're looking really beautiful, Hanako."
+
+ha "D-don't say that."
+
+"There's something about his tone though. It doesn't sound like he's making some random compliment. He sounds somewhat serious."
+
+hi "Could you stand up for a moment and take a look in the mirror on the far wall from here?"
+
+ha "D-do I have to?"
+
+hi "Just really quick."
+
+"I reluctantly get up. I hate looking at myself in mirrors, even when not wearing my badly damaged birthday suit. At least the mirror is rather far away and it's fairly dark. I look and then it strikes me that I can still see my body fairly well. Or at least, part of my body."
+
+"Specifically the part of my body that isn't scarred. Of course the scar tissue is still there, but due to the rough texture, it doesn't reflect the nearby light very well despite being covered in lotion and merely appears as a dark area covering part of me."
+
+"The other parts of my body and my freshly washed hair, on the other hand, are accentuated like never before, sparkling in the moonlight coming through the window due to the gel turning my smoothened skin into a semi-reflective surface."
+
+"A little befuddled, I slowly turn around once. A chuckle comes from my boyfriend who's still in the same spot as I left him."
+
+hi "I don't mind if you want to keep admiring yourself in the mirror a little while longer, Hanako."
+
+"My mood lifted, I get back on top of him again, taking a handful of lotion to apply to his chest. He's still looking me over like before, but for the time being, I actually feel a little bit beautiful."
+
+"I lovingly fondle his chest and nipples, tickling his scar while applying the gel and watching with playful amusement whenever I reach a spot that forces a reaction out of him."
+
+"My caresses have already made him pretty aroused and while stroking his feet and legs, I try my hardest to look at my hands instead of at his crotch in order to avoid embarrassment."
+
+"With only one more spot of his body to cover, I straddle his upper legs, take a handful of gel and start stroking his member; first slowly and carefully, then faster and firmer."
+
+"I'm having very mixed feelings right now. On the one hand, this is great fun. Previously, I only had aural feedback to rely on while getting him off. Seeing the subtle changes in his expression as I change the pace and firmness of my touches and watching the pleasure on his face as a result of my caresses is wonderful." 
+
+"On the other hand, seeing his… thing… right in front of me makes me more than a little nervous."
+
+"Is that really going to go inside of me?"
+
+"Well, I know it's possible since I didn't tear the last time, but it certainly hurt back then and not just when he put it in."
+
+"Part of the reason he purchased that lotion is probably to make it go smoother."
+
+hi "Hanako, could you stop for a moment?"
+
+ha "Hmmm?"
+
+"He looks at me with an inviting look in his eyes."
+
+hi "I think we're more than ready for the next part."
+
+"How can you tell?"
+
+hi "Just... give me a moment."
+
+"Maybe it'll feel better if I do it myself."
+
+"Lower myself onto it and move back up if it hurts."
+
+hi "Hey, don't look so scared. You're probably going to love this."
 
 ha "Huh?"
 
-hi "That day we started our relationship, you were worried that you were useless. That you weren't able to do anything for the people you cared about. Do you still feel that way?"
+hi "Just lie down on top of me."
 
-"He takes his mallet off the puck and gently bats it in my direction. I stop it with my hand, take aim and hit it towards the rail near me, causing it to fly across the field in a frantic zigzag, but he catches it and hits it back in a similar manner." 
+ha "Like this?"
 
-"I try to deflect it, but accidentally bounce it into my own goal."
+"I carefully lie down on top of him, my chin now hovering closely above his chest."
 
-"{i}TSCHAK{/i}"
+hi "Could you move up a little bit so we're at the same eye level?"
 
-"2:1"
+"I brace my feet and push myself up his body a bit…"
 
-ha "I'm not really sure. I… don't… think… I… do."
+ha "EEK!"
 
-"He picks up the puck and launches it towards the right rail, but this time I deflect it towards the left rail in time. He hits it under the same angle and we repeat this pattern several times until I change the angle just a little bit and the puck slides into his goal."
+"…only to find out that the lotion covering us reduced friction between our bodies to such an extent that I completely overshoot my mark and his nose ends up between my breasts."
 
-"{i}TSCHAK{/i}"
+#show hisao basic_laugh_robe with charachange
 
-"2:2"
+hi "My eyes are down here, Hanako."
 
-hi "I don't think there's need to doubt yourself. I mean, we often study together. You supported me in getting into the science club. And I have lots of fun hanging out with you."
+"I giggle at that remark."
 
-ha "S-so, isn't everything okay then?"
+ha "Sorry."
 
-"He bats the puck hard into my left corner so it bounces out of my reach before I can react. Then the right corner. Then the left again. Then the right."
+"I hastily push myself down, again sliding slightly too far, causing me to end up back where I started."
 
-"As I move my mallet to the left in order to catch where I predict the puck will go next, he sends a straight shot right into my goal."
+hi "Looks like you're picking it up pretty quickly."
 
-"{i}TSCHAK{/i}"
+"I push myself up again, more gently this time, and now we level out well."
 
-"3:2"
+ha "P-picking what up?"
 
-hi "There's something I noticed lately. Something about our relationship."
+hi "Applying the lotion was just preparation."
 
-"I try the zigzag shot again. He deflects it, so I try the zigzag on the other rail. This breaks through his guard."
+"Preparation? I'm a bit puzzled. What am I picking up? Sliding up and down? Suddenly, I have a bright moment. I smile bashfully."
 
-"{i}TSCHAK{/i}"
+ha "You w-want me to g-give you a f-full b-body massage?"
 
-"3:3"
+hi "This gel is made specifically for that purpose. That's why it's so extremely slippery. Do you want to give it a try?"
 
-ha "W-what is it?"
+"I nod shyly. The prospect of an extended massage sounds infinitely better than the prospect of intercourse right now. I push myself down a bit until just beneath his chest scar, then slide upwards again until I look him in the eyes once more where I am rewarded with an approving nod."
 
-"{i}TSCHAK{/i}"
+"For a third time I slide down and up on top of him, this time a passionate kiss being my greeting. For nearly half an hour, we go on like this; kissing, rubbing our bodies against each other, me softly pushing myself off to drift back and forth on top of him and he occasionally raising his upper body or hips to let me slide on my own."
 
-"4:3"
+"I'm enjoying the extensive body contact immensely and am surprised at how smoothly I'm able to move despite my scar tissue."
 
-hi "Whenever I help you with your science homework…"
+"Neither of us says a word the whole time, the only sounds our excited breathing, the occasional soft moan and our awkward laughter throughout. As we get more and more passionate in our movements, I can feel him pressing his loins up against mine."
 
-"{i}TSCHAK{/i}"
+"Our slip-and-slide fest, while certainly enjoyable, isn't the most efficient way to stimulate our most sensitive areas and I'm considering getting off of him and finishing the job by hand."
 
-"4:4"
+"I already found out that I can probably afford to be a bit rougher this time without the risk of hurting him. Just as I prepare to follow up on that plan, another idea flashes through my mind that might excite him more than the usual way we tend to end our intimate moments."
 
-hi "…you insist on doing some Japanese exercises with me in return."
+ha "…H-Hisao…?"
 
-"{i}TSCHAK{/i}"
+hi "…H-Hanako…?"
 
-"5:4"
+ha "…could you…do something…?"
 
-hi "Whenever I give you a shoulder rub to ease your stress…"
+hi "…what…?"
 
-"{i}TSCHAK{/i}"
+ha "…s-spread…your…legs…?"
+#show hisao basic_confused_robe with charachange
 
-"5:5"
+hi "Huh?"
 
-hi "…you insist on returning the favor, even if I'm not stressed myself."
+ha "…p-please?"
 
-"{i}TSCHAK{/i}"
+"He looks at me with a puzzled expression for a moment but then complies while doing his best not to look too uncomfortable. I move myself up a bit, take hold of his erect member, point it at the ceiling and then move down until it's resting against my crotch."
 
-"6:5"
+"I carefully close my legs, then cross my feet and squeeze my thighs together as tightly as I can. Hisao tenses up and lets out a loud groan in response."
 
-#show hisao basic_frown with charachange
+"Did that feel good or did I just really hurt him?"
 
-hi "Whenever we go on a date…"
+hi "... Hanako…"
 
-"{i}TSCHAK{/i}"
+ha "Yes?"
 
-"6:6"
+hi "…can you… try moving?..."
 
-hi "…you always insist on paying at least half. Even if I say the whole thing's on me."
+"Whew…"
 
-"{i}TSCHAK{/i}"
+"I lean on my arms, pressing myself against his base and with a bit of trial and error find an angle that allows me to enjoy the friction as well. As I start swaying my hips, Hisao wraps his legs around mine and starts caressing my neck and chest with his hands."
 
-"7:6"
+"This is… pretty good."
 
-hi "What's wrong with having a give-and-receive relationship?"
+"This almost feels like we're having intercourse."
 
-"{i}TSCHAK{/i}"
+"Expect I'm the one doing the thrusting."
 
-"7:7"
+"Hmmmm… really good…"
 
-"Hisao takes the puck out of the tray, but doesn't immediately place it onto the field."
+"Because I have my back arched I can't see Hisao's face very well, but I can tell by the sounds he's making that he's getting close."
 
+"Good thing my inner thighs are still slippery or he'd be groaning in pain right now."
 
-hi "It feels off sometimes. As if you're keeping a tally. Trying to carefully balance things out each time.Making sure you never receive more than you give. That's not a give-and-receive relationship. That's more like a give-and-pay-back-relationship."
+hi "Ahh…Hanako…"
 
-hi "I enjoy doing things for you, but only if you don't see those things as debts that must be paid off as quickly as possible."
+ha "Nnnng…Hisao…?"
 
-"I fall silent as I try to recall those moments and what I felt at the time. Was it fear? Fear of us once more slipping into a caretaker-caretakee relationship if I didn't actively prevent it from happening? Fear of me depending more on him than him on me? Fear of being deemed useless?"
+hi "S-slow down… hah… slow down a bit…"
 
-"I feel embarrassed upon being called out on this, as if I got caught with my hand in a cookie jar."
+"I can tell his heart's doing fine right now. From the look of ecstasy on his face, I can tell he's feeling really good and trying his hardest to hold back."
 
-hi "You have faith in me, don't you Hanako? I'm not gonna walk out on you just like that. I feel there's a whole lot more between us than just a list of favors and counter favors. This isn't how intimate relationships are supposed to work."
+"I consider slowing down, but then speed up the movement of my hips and try to get as much stimulation for myself out of it as I can."
 
-"I know that, of course. Just like I know that whenever I have to pass through a crowd, the odds of everyone in there noticing my scarring at exactly the same moment and all of them staring at me at once is pretty close to non-existent, but I'm still terrified of it happening."
+hi "Ugh… H-H-Hanako… W-what…"
 
-"None of my anxieties really make sense from a rational point of view, but that doesn't make them any less real for me. If Miss Yumi is to be believed, anxieties don't go away overnight just like that, nor can they be dismissed with logic."
+"For a second it seems like he's going to protest, but then he gives in and starts thrusting his hips himself until reaches his climax in a frenzy of frantic grinding."
 
-"What was it she said? Something about the heart not listening to reason, only to experiences?"
+"After Hisao catches his breath, I let go of him, and we sit upright, still in a bit of a daze from our unusual experience together. Now we're sitting on the floor next to the bed, Hisao leaning back against it and me sitting in front of him and gently leaning back against his chest." 
 
-"I watch Hisao place the puck back on the table and prepare for another assault. We pass it back and forth several times before it slips past my mallet."
+"Hisao has one arm wrapped around me and is softly caressing me with the other."
 
-"{i}TSCHAK{/i}"
+#show hisao basic_daze_nude with charaenter
 
-"8:7"
+hi "Hanako… Why did you just…?"
 
-hi "I'm not saying I don't enjoy getting a backrub in return on occasion, but it shouldn't be mandatory."
+"Is he bothered by the fact I just pushed him over the edge?"
 
-"{i}TSCHAK{/i}"
+ha "You w-were looking like you were f-feeling really good, so I thought it wouldn't be a problem to go on. If your heart was acting up, you wouldn't have asked me to just s-slow down."
 
-"9:7"
+hi "It's not that, it's just…"
 
-hi "I really enjoy the lunches you bring along for me every so often. I'm not sure if you were expecting…"
+"I follow his gaze as it rests on the towel I just used to wipe my thighs clean after his ejaculation."
 
-ha "No, no, no, no, no… I really d-don't need you to r-return the favor. I r-really enjoy m-making them ffor you."
+#show hisao basic_concern_nude with charachange
 
-"As I blurt out a denial of his suggestion, the puck zips into my goal slot. Looks like Hisao made his winning point."
+hi "…what we did just now wasn't exactly safe, even if the odds are very low of you getting… you know... pregnant from this."
 
-"{i}TSCHAK{/i}"
+"Pregnant…"
 
-"10:7"
+ha "Ummm… Hisao?"
 
-hi "Just like I enjoy doing things for you on occasion. Giving and receiving can both be fun in their own way. I don't think we should keep score… Trying to keep things exactly even will only make our relation appear rigid and unnatural."
+hi "Yeah?"
 
-"I nod. I understand what he's trying to tell me."
+ha "It's okay. You've been… exercising in order for us to be… intimate, so I w-wanted to do something too. I've been using… p-protection so you wouldn't h-have to and this would feel b-better for you."
 
-ha "I-I have faith in you, Hisao. Do you also h-have faith in me?"
+hi "Huh? You mean to say that you're on the pill? Since when?"
 
-#show hisao basic_smile with charachange
+ha "S-since Hokkaido."
 
-hi "I do, Hanako."
+hi "Wow… I didn't imagine you making the effort to get them."
 
-ha "I-I'm trying, and I promise to t-try even harder from n-now on."
+ha "I h-had… help."
 
-"Hisao walks over to me and puts a hand on my shoulder."
+"That is to say, Lilly obtained them for me. I realize I'm probably not allowed to get a hold of them that way, but Lilly was the only person I dared to approach."
 
-"That's enough for me, Hanako. Thanks."
+"Thankfully, she was a really good sport and willfully bought my blatantly transparent excuse about troubles with my menstruation without asking any further questions."
 
-#show hisao basic_grin with charachange
+hi "But why didn't you tell me?"
 
-"He gives me a sly grin."
+ha "I w-wanted to tell you when I was… r-ready for it."
 
-hi "We could give a try right now if you like."
+#show hisao basic_smile_nude with charachange
 
-ha "Ummm… what do you mean?"
+hi "I understand. That probably wasn't today, was it? I saw your frightened face earlier."
 
-hi "Would you be okay if I foot the bill for the rest of the evening? Or at least the majority of it?"
+ha "I d-don't… really know."
 
-"Not really. I really want to show Hisao I got the point he was trying to make earlier, but I want to share in the costs too, if possible. Suddenly, an idea pops into my head."
+hi "It's okay. This night has been really wonderful so far. I'd hate to see it ruined because we end up doing something that causes me to hurt you."
 
-ha "Ummm… I have another idea. W-we could play rock-paper-scissors before we start a game. The winner p-pays until we move on. S-so if you win every contest, you cover the entire evening."
+"Maybe that's part of the problem. I had a really good time just now, and tonight's been very good on the whole. How am I supposed to relax in the first place if he's implying the evening will be ruined if I can't enjoy it enough?"
 
-hi "And if you win every time, everything'll be on you, right?"
+"And if I can't relax, it'll only become more likely that I won't be able to enjoy it. It's like a vicious circle."
 
-ha "That's right. But I p-promise I'll accept the outcome, no matter w-what it is."
+ha "Ummm… That's… a problem…"
 
-hi "Okay then. But perhaps we can do something more practical than rock-paper-scissors. Something that never results in a tie."
+hi "Huh?"
 
-ha "What do you suggest?"
+ha "You'll f-feel bad when I can't relax and e-enjoy it… S-so I can't relax b-because I don't want you to feel bad."
 
-hi "How about flipping a coin?"
+hi "I see. That makes sense. So I can't relax if you can't relax, and you can't relax because I can't relax. It's like a feedback loop."
 
-ha "O-okay."
+ha "Y-yes…"
 
-"We decide on sides and then head over to the retro section Hisao brought up earlier."
+hi "What do you suggest?"
 
-call shorttimeskip
+ha "I… d-don't think a little discomfort is enough to ruin this wonderful night. I'm… not going to break."
 
-hi "See anything you like?"
+hi "Then let's give it a try. Well, once I'm up to it again, that is. In the meantime…"
 
-ha "Hmmm…let's try that one."
+"He places his legs in front of mine, preventing me from closing them. Then he takes a bit of lotion and starts fondling me with both hands while kissing the left side of my neck and earlobe. I gasp and giggle at his attentions."
 
-"We walk over to the machine, Hisao looks at the coin slot, then at me and gives a nod. I take a coin from my purse, toss it up, catch it and place it on my left hand."
+ha "H-hey…"
 
-ha "T-t-tails."
+hi "…let's get you warmed up a little."
 
-hi "That's your side. We should pick four credits for cooperative games and three for competitive."
+"Our earlier actions already got me 'warmed up' quite a bit, but I'm not going to refuse a chance to be pampered by him a bit more. I sit back and let out a little cry as his left hand sneaks down and starts fingering me."
 
-"I slip three coins into the slot, and we both press our respective start button."
+"For a while he keeps quiet, content to just listen to my heavy breathing. Then he moves his lips to my ear and softly whispers to me."
 
-"I think I remember how some of the moves are meant to be done."
+hi "Hanako, I want you to try and relax as much as you can."
 
-"As the announcer calls the start of the fight, Hisao's character lets out a roar and flies at me immediately."
+ha "…s-sure… ahhhh…"
 
-"Ouch. He's not kidding around. Pulling the stick away makes you block attacks, right?"
+"I can feel how his right hand slowly moves down as well."
 
-"He approaches me again, but this time I deliver a kick to push him back. Hisao is stronger and faster, but I've got better reach."
+ha "W-what are you… hmmm… g-going to doWHAAAA!"
 
-"He moves in again and we trade several blows. I manage to grab him and throw him away from me. I think it was a quarter-circle motion with the joystick."
+"Before I realize what's happening, his right hand has reached my lady bits and he's slowly pushing one of his fingers inside me. I let out a yelp and reflexively grab his arm though because we're both still pretty slippery, I can't get enough grip to pull it away."
 
-"After two tries, I manage to shoot a projectile at him. He jumps over it, but I manage to nail him with a kick as he lands."
+"He keeps his finger in place for a second and then slowly pulls out again, causing me to exhale in relief."
 
-"The game's announcer confirms my victory. The second round begins, and I manage to block another flying attack from Hisao."
+hi "Sorry, did that hurt?"
 
-ha "Hisao?"
+"I don't think it did. It felt really weird and awkward, but it wasn't exactly painful."
 
-"I'm getting the hang of the projectile motion and start shooting a stream of fireballs at Hisao in order to keep him at bay."
+ha "N-no."
 
-hi "Yes?"
+"Upon hearing my reply he pushes back in…"
 
-"He gets a few hard blows in after jumping my projectiles, but I manage to regain the upper hand after a successful throw."
+"I try to suppress a gasp, but fail."
 
-ha "When we left Lilly's room yesterday, I noticed she looked sad for a moment."
+hi "Try to relax your muscles, Hanako."
 
-"I start shooting fireballs again, this time of varying speed in order to keep him on his toes and manage to wear him down enough to win the second round."
+"…and back out. Then back in again…"
 
-hi "Are you sure?"
+hi "Don't hold your breath. Just keep breathing in and out normally."
 
-ha "It was for a split-second. Before she closed the door."
+"…and out. I nod weakly and try to focus on the sensation his other hand instills in me. At first, my body jumps each time he pushes forth his finger, but as he continues with what he called my 'warming up', I slowly manage to relax and enjoy his touch again, even as he slightly speeds up the movement of both hands."
 
-"We're back at the character select screen and Hisao picks another fighter to play with."
+"Upon seeing that my signals of discomfort are disappearing, he whispers in my ear."
 
-hi "Why would she be sad?"
+hi "You're doing well, Hanako. Now…let's try with two..."
 
-ha "I'm not sure. All I said was that I'd like to have these kinds of tea parties more often."
+ha "S-s-stop..."
 
-"The second match starts and I try the strategy I used to win the last battle, but this time Hisao shoots my projectiles out of the air with his own."
+"As the sensations of the last contraction die down and Hisao ceases providing the intense stimulation I just endured, I breathe a long sigh of relief. Hisao moves his legs away, wraps his arms around my waist and lets me catch my bearings while kissing my heavily flushed cheek and softly chuckling a bit to himself."
+#show hisao basic_laugh_nude with charaenter
 
-hi "I wouldn't call that a particularly depressing statement."
+ha "P-please d-don't laugh at me…"
 
-"The round ends with a timeout after a long fireball war that I lose after messing up the motion a few times."
+"It wasn't as obvious when we were still keeping the lights off, but being pleasured can draw some pretty entertaining reactions out of people. It's really best not to think too hard about how you must have looked to someone else afterwards."
 
-ha "I'm… a bit worried, Hisao. I wonder if Lilly is really giving us space to be on our own or if there's something that's bothering her."
+hi "I recall you laughing to yourself while I was making faces."
 
-hi "Something that's bothering her?"
+"I guess I'm not in a position to say anything."
 
-"This time I try to be more aggressive and trip him up by sliding under his projectiles. It works a few times until Hisao starts throwing projectiles at my feet instead."
+"…"
 
-ha "C-causing her to spend less time with us than before. She's often missed lunch in the tea room these days in favor of class representative duties, and until this week, we haven't really been to her room either."
+"I give him a quick kiss back as a quiet admission of guilt and then look at him expectantly."
 
-hi "Well, she has been scarcer than usual lately, but I'm not sure if that means something's on her mind and if so what it could be that bothers her."
+"Now what?"
 
-"I try to switch to jumping attacks, only to find out my character is much too slow for that tactic, and I end up losing the second round as well after being knocked out of the air several times."
+hi "Can you get onto the bed?"
 
-ha "Maybe…us?"
+"I unsteadily get to my feet and lie down upon the bed. Hisao takes the pillow we used as a head rest earlier and carefully places it under my hips."
 
-hi "Us?"
+"We're still completely covered in seaweed gel. This bed's gonna be a major mess afterwards. Good thing we won't be the ones who'll have to change the sheets."
 
-ha "I s-sometimes wonder if she… likes you too?"
+"For a moment we just look each other in the eyes. A mutual look of uncertainty, then one of mutual reassurance."
 
-"I take a moment to pick my character for the final match and decide on a speedier fighter."
+hi "Don't be afraid."
 
-hi "Lilly having feelings for me?"
+ha "I won't be if you aren't."
 
-"She never admitted it, but the last time I asked her she ended up reversing the question instead of answering it."
+play music music_romance fadein 2.0
 
-"The first round is quickly devolves into a slugfest with me taking some time to get used to fight without projectiles and Hisao taking some time to learn how to deal with a faster opponent. The round ends with us taking a simultaneous blow that depletes the last of my energy."
+"I close my eyes and he gently spreads my legs, stroking the inside just a little and then I feel the sensation of something just a little larger than his two fingers smoothly sliding into me."
 
-ha "If t-that were true… being with you and me would be p-painful for her, right?"
+"For a moment we both take a surprised look at the place where we're joined now, and Hisao makes a few reluctant movements to check for signs of discomfort on my part. When those signs fail to occur, we share a little laugh of relief, and Hisao lowers himself and lies down flatly on top of me."
 
-"The second round ends more favorably for me as I start figuring out a pattern in the altitude of Hisao's projectiles and am able to evade them with slidings and quick jumps long enough to whittle down his health."
+"He grabs hold of my shoulders and slides up my body as far as he can until we can look each other in the eyes."
 
-hi "I'm not sure if that's the case. If Lilly was interested in me, she'd probably have flirted with me or something. I don't think she'd stay completely passive."
+hi "I'm not too heavy, am I?"
 
-"No, that's more like my strong suit."
+ha "N-no."
 
-ha "U-unless she held back f-for my sake."
+"The weight of his body on top of mine makes me pretty much unable to move anything other than my arms and legs, but it's a small price to pay for the extensive body contact we can have this way."
 
-"The final round once again devolves into us trading blows with me trying to capitalize on my longer reach as much as possible. For a while the outcome appears to mirror the result of the first round until I manage to barely escape his attack with a quick jump off the wall and slam Hisao into the floor after landing behind him."
+"I raise my legs, letting them rest on his calves and wrap my arms around him. He slowly starts grinding his pelvis against mine, and I do my best to adapt my movements to his, tilting my hips until the friction starts feeling good."
 
-hi "I don't think we should jump to conclusions, Hanako. When she came back from her trip, she seemed genuinely happy for us. Let's just ask her on Monday. Until then, try not to think about it, okay?"
+"It takes us a bit of effort to find a workable rhythm, my scar tissue occasionally hampering us a bit. Fortunately, since we're still really slippery from before, it's a lot easier than last time."
 
-ha "O-okay."
+"I lie back and close my eyes, basking in the amazing sensation we're experiencing, wiggling my upper body as much as Hisao's weight allows me to in order to increase the stimulation. This couldn't be more different from the last time our bodies became one."
 
-"I really hope I'm wrong. If something is on Lilly's mind, I want to help her get through it, but if it's my relationship with Hisao that's bothering her, I really don't know what I could say to her to cheer her up."
+"The last time, we were distant, neither of us really knowing what we were feeling, whether we really wanted this and whether the other really wanted this. Our bodies had minimal contact, and we experienced more than a little bit of discomfort, physically and emotionally."
 
-"I'm not really interested in taking on the single player mode, so after Hisao's timer runs out we simply leave my fighter to be beaten into submission by the CPU opponent."
+"Now we're entangled in each other, closer to each other than we ever have been before, and I feel this union is as both an emotional and a physical one."
 
-hi "That was pretty fun. Where to now?"
+"With each moment, our movements become more instinctual than before, more desperate than before. As I feel my orgasm approaching inevitably, I tighten my arms around him as strongly as I can as if to draw him into myself, and when I lose control and the first convulsion hits my body, I let out an involuntary cry that contains both physical pleasure and emotional joy at the same time."
 
-ha "Hmmm…"
+"After our climax, Hisao uses the last of his strength to slide off of me and roll on his back. With some effort, I manage to pull up the covers and press myself close to him before every muscle in my body relaxes and a feeling of bliss washes over me that makes me want to laugh and cry at the same time."
 
-call shorttimeskip
+"Despite already knowing that he came through our act of passion in one piece, I place my hand on his chest as if to acknowledge his heart remained steady."
 
-"We spend the next hours, among other things, beating up cyborg soldiers with ninja weapons, navigating monster-filled dungeons in search for food and treasure, popping balloons with harpoon guns, popping bubbles with monsters inside and watching the attract mode of every cabinet in the area."
+"Hisao's already slipping away into slumber, and I find myself getting sleepier by the second as well, but I still want to say something - something to thank him for the moments we just shared. I softly kiss his cheek in order to get his attention and whisper in his ear."
 
-"As we leave the retro corner, Hisao points to a big cabinet with two motorbike-shaped seats in front of it."
+ha "Thank you, Hisao. That was a very memorable first time."
 
-hi "Want to take part in a little race, Hanako?"
+hi "…first…time…Hanako?"
 
-ha "Sure."
+ha "Yes. First time making love."
 
-call shorttimeskip
-
-hi "That was close."
-
-"I let out a slightly frustrated sigh. It sure was. Hisao and I crossed the finish line with only a 0.3 second difference on the clock. I'm pretty sure I can do better next race. But as I prepare to push the start button in the center of the handlebar, Hisao stops me."
-
-hi "Hey Hanako, why don't we try the single player race? Might be fun too."
-
-"How are \'we\' supposed to participate in the single player mode? You can only take part in the race with one bike."
-
-ha "Ummm…how?"
-
-"Hisao taps the back of his motorbike with his fingers."
-
-hi "Hop on board before your countdown's finished."
-
-ha "I-is that okay? Those s-seats aren't made for two people, are they?"
-
-hi "We'll be fine. Those seats can handle some weight. I mean, have you seen the size of some of the regular visitors here?"
-
-"I chuckle."
-
-ha "O-okay then."
-
-"I quickly move over to the seat Hisao is sitting on and sit down behind him. It's still a tight fit because the seats have a depression in the middle for the player to sit and it's not quite made for two pairs of hips." 
-
-"I don't think either of us are sitting in a particularly stable or comfortable position. As Hisao's screen lights up to reveal the starting line and seven other bike riders in front of us, I wrap my arms around him tightly."
-
-"A few minutes later we cross the finish line dead last. Steering turns out to be extremely tricky since it's impossible for us to lean left or right in precise tandem, meaning most of the turns we make are too late and too wide."
-
-"I giggle."
-
-ha "I don't think this is going to get us very far."
-
-hi "True, but wasn't it fun?"
-
-"It was. Throughout all the bumbling, colliding and zigzagging on straight parts, due to repeatedly overcompensating for each other's movements, I had to make several supreme efforts to hold back my laughter."
-
-hi "We have one credit left. Want to switch places and try it again?"
-
-ha "Sure."
-
-"I get off the seat, move in front of him and try to get comfortable. As I press the start button and Hisao hugs me from behind, a thought springs up in my mind."
-
-ha "Ummm…Hisao? W-was this whole thing j-just an excuse to hug in public?"
-
-"He laughs at my observation."
-
-hi "No, just an extremely welcome addition."
-
-"The second race goes slightly better, and we end up being sixth. This is more due to us getting better at predicting each other's movements than it is about steering skills."
-
-"It's still not enough to get us to the next race, but I don't think we should keep putting coins into this thing until we're good enough to get in first."
-
-hi "So, what do you want to do next?"
-
-scene bg city_restaurant
-with Dissolve(2.0)
-
-play music music_dreamy fadein 2.0
-
-"The peaceful corner of the coffee shop where we decided to take a breather after leaving the arcade is a refreshing change from the bustling of the crowded arcade hall. While my difficulty with crowds hasn't raised its head enough to ruin my fun this evening, it still feels good to relax in a quiet place for a while."
-
-#show hisao basic_smile with charaenter
-
-hi "Sorry it took so long."
-
-"Hisao returns from the counter holding a bottle of soda and a cup of hot cocoa. He sits down next to me, puts the soda in front of himself and shows me a frustrated frown for a moment before giving me the cocoa."
-
-"The couple in front of me took ages to make up their mind about their order. I was about to give up and take you somewhere else."
-
-ha "It's okay. I had someone to keep me company."
-
-"We both look at the plush puppy we liberated from the crane game near the arcade's entrance through our combined efforts."
-
-hi "We could have obtained several other stuffed toys for the number of efforts it took us to get this specific one."
-
-ha "He's special. I'm sure he'll feel at home at Yamaku."
-
-"What's 'special' about the dog in question is actually the fact that his left eye is missing. It probably got damaged at some point. When I noticed that, I made a special effort to obtain him despite the fact he was lying pretty far away from the crane's starting point."
-
-hi "A new member of our little, disabled family, huh?"
-
-"I nod."
-
-ha "I'm still deciding whether to let him live in my room or let Lilly take care of him."
-
-hi "Maybe you should leave him with Lilly, so he and I don't end up becoming rivals for your affection."
-
-"I giggle at this weird idea."
-
-ha "I think I have more than enough affection for both of you."
-
-hi "So, have you already decided on a name for him?"
-
-ha "Hmmmm…I think I'll call him 'Niji'."
-
-#show hisao basic_curious with charachange
-
-hi "Niji?"
-
-ha "At the orphanage… they had a dog that some of the children there took care of. 'Niji' is what they called him."
-
-hi "Were you one of those children?"
-
-"I shake my head."
-
-hi "You don't like animals? I've once heard that a lot of people who… well… are not good with other people tend to form strong bonds with their pets."
-
-ha "I… do like them. At least, I think I do. It's just… Everyone who wanted to take care of him was also tasked with walking the dog every few days. And that dog… really liked being outside and running in the park and playing with other dogs."
-
-ha "But I… d-didn't really like going outside. And w-walking your dog tends to make other people approach you for s-small talk, so… ummm… I thought he w-was in better hands with… other children."
-
-hi "That's a shame, Hanako. That dog missed out on a great friend. And so did you, most likely. Maybe you could reconsider it once you have a place of your own in the future."
-
-ha "That's probably still far off, but… thank you, Hisao."
-
-#show hisao basic_smile with charachange
-
-hi "Hey Hanako, are you enjoying our date so far?"
-
-ha "Y-yes, I am. I… wouldn't mind going back to the game center some time. There were still many games we didn't get to play yet."
-
-hi "Great. Good. I'm happy to hear that. I wouldn't mind going back there myself either."
-
-"Why is he getting nervous? And what does he mean by 'so far'? Won't we going back to Yamaku yet?"
-
-ha "H-Hisao… Did you have more planned? Does it have to do with that backpack you've been carrying around all the time?"
-
-hi "The backpack contains, among a few other things, my medication."
-
-"His medication? Why would he take that along? Wait a second…"
-
-ha "H-Hisao, d-d-do you mean…?"
-
-"He takes a deep breath, realizing it's probably too late to dismiss the issue and then looks me in the eyes."
-
-hi "H-Hanako, would you like it if we… spent the night together somewhere around here?"
-
-#call en_chapter10
+call en_chapter10
